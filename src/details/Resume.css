@@ -1,0 +1,171 @@
+.resume h3 span{
+    color: royalblue;
+}
+.resume .head {
+    text-align: left;
+    margin:40px 0px ;
+    
+}
+.resume p{
+    color: rgb(162, 161, 161);
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.resume .resume-experience{
+    display: flex;
+}
+.resume .resume-experience .experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 270px;
+    height: 400px;
+    border: 0.5px solid rgb(235, 235, 235);
+}
+.resume .experience h3{
+text-align: left;
+}
+.resume .experience h4{
+    color: grey;
+    text-align: left;
+    width: 230px;
+}
+.resume .experience .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume .experience .image img{
+  width: 120px;
+  height: 45px;
+}
+.date{
+    color: royalblue;
+    padding: 3px 10px;
+    border: 0.5px solid royalblue;
+}
+
+
+
+.skill .skill-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+}
+.skill .skill-list .skill-list-one{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 550px;
+    
+    
+}
+.skill .skill-list .skill-list-one h2{
+    color: rgb(39, 38, 38);
+    font-weight: 400;
+   
+    
+}
+.skill .skill-list .skill-list-one h3{
+    color: rgb(85, 84, 84);
+    font-weight: 400;
+    font-size: 17px;
+}
+.skill .skill-list .skill-list-one hr{
+    background-color: teal;
+    width: 250px;
+    height: 5px;
+    margin-top: -6px;
+    margin-left: 0;
+}
+.skill .skill-list .skill-list-one .icon{
+    color: teal;
+    width: 40px;
+    height: 30px;
+    font-weight: 900;
+}
+
+.skill-list-one .mark{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 5px;
+}
+.skill-list-one .mark div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    
+}
+.skill-list-one .mark .icon-two{
+   margin-right: 20px; 
+   width: 30px;
+   font-weight: 700;
+}
+.rounded {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ ;  
+}
+.rounded .round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid teaL;
+    border-radius: 50%; 
+    margin: 5px 10px;
+    padding: 10px;  
+  
+}
+.rank{
+    display: flex;
+}
+.rank-round{
+    width: 17px;
+    height: 17px;
+    background: teal;
+    margin: 4px;
+    border-radius: 50%;
+}
+.testimony{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+.testimony i{
+    color: rgb(90, 89, 89);
+    width: 80%;
+}
+.testimony img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testimony h4{
+    margin-top: -20px;
+    color: rgb(41, 40, 40);
+}
+
+/* .testimony {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .testimony.active {
+    opacity: 1;
+  } */
+
+

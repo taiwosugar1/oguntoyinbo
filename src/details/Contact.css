@@ -1,0 +1,74 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h3 span{
+    color: rgb(0, 115, 255);
+    
+}
+.contact img{
+    width: 540px;
+    height: 200px;
+}
+.contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 115, 255);
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 35px;
+    background: white;
+
+    border-radius: 5px;
+    -moz-box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
+    box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+.address-one, .address-two{
+    display: flex;
+  
+    
+}
+
+.address-one h5, .address-two h5{
+    background: royalblue;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 2px;
+    margin: 20px;
+}
+.address-one p, .address-two p, h5{
+    color: rgb(93, 92, 92);
+   
+}
+.address-two{
+   margin-left: -110px;
+}
+
+.contact input{
+    width: 550px;
+    height: 40px;
+    border: 0.5px solid rgb(222, 218, 218);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact-form button{
+   margin: 30px 0px;
+   width: 150px;
+   height: 50px;
+}
+
+

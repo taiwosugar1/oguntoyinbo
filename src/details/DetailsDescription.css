@@ -1,0 +1,21 @@
+.details-description{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.details-description .description-children ol{
+    display: flex;
+ text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.details-description .description-children ol li{
+    color: rgb(67, 66, 66);
+}
+.details-description h3{
+    color: teal;
+}
+
