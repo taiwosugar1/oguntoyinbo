@@ -219,7 +219,8 @@ hr{
         margin: 10px;
     }
     .box2 div .icon{
-        padding: 5px; 
+        padding: 5px;
+        color: rgb(78, 78, 78); 
     }
     .box2 h3{
         padding: 3px 5px;
