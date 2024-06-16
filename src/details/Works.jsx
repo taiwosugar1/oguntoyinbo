@@ -17,7 +17,7 @@ export const Works = () => {
     <h3><span style={{color:'royalblue'}}>W</span>orks</h3> 
     <ul>
       <li style={{color:"royablue", fontWeight:"600"}}onClick={()=>setData(Categories)}>All</li>
-      <li onClick={()=>filterResult('web')}>Web development</li>
+      <li onClick={()=>filterResult('web')}> Web development</li>
       <li onClick={()=>filterResult('print')}>Printing Production</li>
     </ul>
 </nav>
