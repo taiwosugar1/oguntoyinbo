@@ -126,7 +126,7 @@ const Home = () => {
             </div>
         </div>
         <div className="three">
-        {activeTab === 'about' && <About />}
+            {activeTab === 'about' && <About />}
             {activeTab === 'contact' && <Contact />}
             {activeTab === 'resume' && <Resume />}
             {activeTab === 'blog' && <Blog />}

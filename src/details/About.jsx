@@ -72,8 +72,8 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
            <img src="image/exeter-image.png" alt="" />
            <img src="image/unilag-image.png" alt="" />
            <img src="image/metaphor-lab-image.png" alt="" />
-         </div>
-        <div className="client-list">
+         
+       
            <img src="image/enspace-image.png" alt="" />
            <img src="image/gomycode-image.png" alt="" />
            <img src="image/ai-africa-image.png" alt="" />

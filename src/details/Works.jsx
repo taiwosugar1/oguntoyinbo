@@ -12,7 +12,8 @@ export const Works = () => {
      setData(result)
   }
   return (
-    <div>          <nav className='nav'>
+   <div className='work-container'>   
+    <nav className='nav'>
     <h3><span style={{color:'royalblue'}}>W</span>orks</h3> 
     <ul>
       <li style={{color:"royablue", fontWeight:"600"}}onClick={()=>setData(Categories)}>All</li>

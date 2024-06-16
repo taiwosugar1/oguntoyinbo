@@ -36,8 +36,7 @@
 }
 .address-one, .address-two{
     display: flex;
-  
-    
+     
 }
 
 .address-one h5, .address-two h5{
@@ -71,4 +70,26 @@
    height: 50px;
 }
 
-
+@media only screen and (max-width: 480px){
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact img{
+        width: 90%;
+        height: 200px;
+       margin-right: 10px;
+    }
+    .address-one, .address-two{
+        display: flex;
+         flex-wrap: wrap;
+         margin: 10px;
+    }
+    .contact input{
+        width: 470px;
+        height: 40px;
+        border: 0.5px solid rgb(222, 218, 218);
+    }
+}

@@ -1,3 +1,10 @@
+.work-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
 .work-done-box {
     display: grid;
     grid-template-columns: auto auto;
@@ -58,4 +65,42 @@
     border-radius: 5px;
     background: teal;
     font-size: 14px;
+ }
+ @media only screen and (max-width: 480px) {
+   .nav{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 10px;
+   }
+   .work-done-box {
+      display: grid;
+      grid-template-columns: auto;
+  }
+  .work-done-box .work-done .work {
+   
+   width: 80%;
+   height: 400px;
+   border: 0.5px solid rgb(210, 207, 207);
+   margin:10px;
+   background: teal;
+}
+.work-done-box .work-done  .work  img {
+    width: 100%;
+    height: 250px;
+ }
+ .work-done-box .work-done  .work  h3 {
+   color: red;
+}
+
+.work-done-box .work-done  .work p {
+  color: white;
+}
+ .work-done-box .work-done  .work  img:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    z-index: 999;
+  filter: contrast(50%);
+  
+ }
  }

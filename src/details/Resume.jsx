@@ -111,7 +111,7 @@ export const Resume = () => {
            
          </div>
          <div className="skill-list">
-        <div className="skill-list-one" style={{height:"700px"}}>
+        <div className="skill-list-one" >
         <h2><TbTools className='icon'/> TOOLS </h2>
         <hr style={{width:"100%", height:"0.5px", background:"grey"}}/>
         <div className="rounded">
@@ -135,7 +135,7 @@ export const Resume = () => {
            <div className="round"><h5>Nextjs</h5></div>
            </div>
         </div>
-        <div className="skill-list-one" style={{marginTop:"-293px"}}>
+        <div className="skill-list-one" style={{marginTop:"-150px"}}>
         <h2><FaFlag className='icon'/> LANGUAGES </h2>
         <hr style={{width:"100%", height:"0.5px", background:"grey"}}/>
          <h3>English</h3>

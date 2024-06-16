@@ -12,9 +12,13 @@
 }
 .about p{
     color: rgb(93, 92, 92);
-    text-align: left;
+    text-align: justify;
     line-height: 30px;
-    width: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .my-services{
     display: flex;
@@ -49,9 +53,8 @@
 }
 
 .client .client-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
     
 }
 .client .client-list img{
@@ -60,4 +63,34 @@
     height: 100px;
     margin: 15px;
     
+}
+@media only screen and (max-width: 480px){
+    .my-services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 90%;
+        background: teal;
+
+    }
+    
+    .service{
+        width: 80%;
+        flex-wrap: wrap;
+        height: 400px;
+        border: 0.2px solid rgb(226, 213, 213);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       background: white;
+    }
+    .client .client-list{
+        display: grid;
+        grid-template-columns: auto auto;
+          
+      }
+
 }
