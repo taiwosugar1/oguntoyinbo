@@ -209,7 +209,7 @@ hr{
     .box2{
         flex-direction: row;
         display: flex;
-        width: 90%;
+        width: 95%;
         height: 90px;
         border-radius: 8px;
        justify-content: center;
@@ -302,7 +302,7 @@ hr{
         display: flex;
         align-items: center;
         justify-content: center;
-        width:90%;
+        width:95%;
         height: 90px;
         top: 0;
         position: sticky;
