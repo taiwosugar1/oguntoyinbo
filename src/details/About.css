@@ -74,7 +74,6 @@
         flex-direction: column;
         width: 90%;
         background: teal;
-
     }
     
     .service{
@@ -96,9 +95,18 @@
       .about hr{
         width: 80%;
         height: 0.001em;
-        margin: 10px;
-        
+        margin: 10px; 
      }
+     .about p{
+        color: rgb(93, 92, 92);
+        text-align: justify;
+        line-height: 30px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
 }
 
