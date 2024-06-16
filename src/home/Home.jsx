@@ -49,7 +49,7 @@ const Home = () => {
         <div className="one">
            
            
-        <div className="box1"  style={{marginBottom:'10px'}}><FaAlignLeft className='icon special-icon'  onClick={handleToggle}/>
+        <div className="box1"  style={{marginBottom:'10px'}}   onClick={handleToggle}><FaAlignLeft className='icon special-icon'/>
         {isOpen && ( // new conditional rendering
               <div className="details">
                 {/* add your details here */}

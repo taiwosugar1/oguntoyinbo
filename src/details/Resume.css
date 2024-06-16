@@ -78,6 +78,8 @@ text-align: left;
     
     
 }
+
+
 .skill .skill-list .skill-list-one h2{
     color: rgb(39, 38, 38);
     font-weight: 400;
@@ -91,7 +93,7 @@ text-align: left;
 }
 .skill .skill-list .skill-list-one hr{
     background-color: teal;
-    width: 250px;
+    width: 270px;
     height: 5px;
     margin-top: -6px;
     margin-left: 0;
@@ -123,10 +125,9 @@ text-align: left;
    font-weight: 700;
 }
 .rounded {
-    display: flex;
-    align-items: center;
-    justify-content: center;
- ;  
+   display: grid;
+   grid-template-columns: auto auto;
+ 
 }
 .rounded .round{
     display: flex;
@@ -189,6 +190,18 @@ text-align: left;
         flex-direction: column;
         flex-wrap: wrap;
     }
+    
+    .rounded{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-left: -55px;
+    }
+   .skill hr{
+       width: 80%;
+       height: 0.001em;
+       margin: 10px;
+       
+    }
 }
 
 /* --------tab screen--------- */
@@ -208,6 +221,9 @@ text-align: left;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    hr{
+        display: flex;
     }
 }
 

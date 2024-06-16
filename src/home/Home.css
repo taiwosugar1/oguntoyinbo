@@ -30,7 +30,7 @@
 .details {
     display: block;
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 29%;
     transform: translate(-50%, -50%);
     width: 370px;
@@ -151,11 +151,29 @@ hr{
 
 
 @media screen and (max-width: 480px) {
+    
     .container{
         display: flex;
         flex-direction: column;
     }
+    .one{
+        width: 100%;
+        top: 0;
+        position: fixed;
+        z-index: 10000;
+        background: white;
+        -moz-box-shadow: 3px 9px 8px -11px rgba(0,0,0,1);
+        -webkit-box-shadow: 3px 9px 8px -11px rgba(0,0,0,1);
+         box-shadow: 3px 9px 8px -11px rgba(0,0,0,1);
+    }
+    .box1{
+        border-radius: 5px;
+        -moz-box-shadow: 0px 1px 18px -11px rgba(0,0,0,1);
+        -webkit-box-shadow: 0px 1px 18px -11px rgba(0,0,0,1);
+        box-shadow: 0px 1px 18px -11px rgba(0,0,0,1);
+    }
     .two{
+        margin-top: 200px;
         width: 480px;
         height: 500px;
         background: teal;
@@ -183,33 +201,57 @@ hr{
         flex-wrap: wrap;
         
     }
-    .phone{
+    .box2{
         flex-direction: row;
         display: flex;
-        width: 470px;
-        height: 70px;
-        top: 0;
-        position: sticky;
+        width: 100%;
+        height: 90px;
+       justify-content: center;
+       align-items: center;
+       -moz-box-shadow: 0px -2px 18px -11px rgba(0,0,0,0.78);
+       -webkit-box-shadow: 0px -2px 18px -11px rgba(0,0,0,0.78);
+       box-shadow: 0px -2px 18px -11px rgba(0,0,0,0.78);
     }
-    .phone .icon{
-        display: none; 
+    .box2 div {
+        width: 70px;
+        margin: 10px;
     }
-    .phone h3{
+    .box2 div .icon{
+        padding: 5px; 
+    }
+    .box2 h3{
         padding: 3px 5px;
-        background: aqua;
+        
         margin: 0px 10px;
     }
-    hr{
-        display: none;
-    }
+
+     hr{
+         width: 0.2px;
+         height: 70px;
+     }
    
     .special-icon{
         display: block;
         z-index: 10000;
     }
-    details{
-        margin-left: 200px;
-    }
+  
+.details {
+    display: block;
+    position: absolute;
+    top: 230%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+    transition: opacity 0.3s;
+    overflow:hidden auto;
+    scrollbar-width: thin;
+    scrollbar-color:white white;
+  }
 }
 
 /* -----------tab screen---------- */
@@ -247,24 +289,28 @@ hr{
         flex-wrap: wrap;
         
     }
-    .phone{
+    .box2{
         flex-direction: row;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 470px;
-        height: 70px;
+        height: 90px;
         top: 0;
         position: sticky;
     }
-    .phone .icon{
-        display: none; 
+    .box2 .icon{
+        font-size: 22px; 
+        font-weight: 400;
     }
-    .phone h3{
+    .box2 h3{
         padding: 3px 5px;
-        background: aqua;
+        
         margin: 0px 10px;
     }
     hr{
-        display: none;
+        width: 0.01px;
+        height: 70px;
     }
    
     .special-icon{

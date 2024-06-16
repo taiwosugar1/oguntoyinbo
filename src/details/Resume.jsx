@@ -82,7 +82,7 @@ export const Resume = () => {
    <hr />
        
          <div className="skill-list">
-        <div className="skill-list-one">
+        <div className="skill-list-one knowledge-base" >
         <h2>< GiOpenBook className='icon'/> KNOWLEDGE BASE </h2>
         <hr style={{width:"100%", height:"0.5px", background:"grey"}}/>
           <h3>Project Management</h3>
@@ -117,23 +117,14 @@ export const Resume = () => {
         <div className="rounded">
             <div className="round"><h5>Javascript</h5></div>
            <div className="round"><h5>Reactjs</h5></div>
-           </div>
-           <div className="rounded">
             <div className="round"><h5>Nodejs</h5></div>
            <div className="round"><h5>Expressjs</h5></div>
-           </div>
-           <div className="rounded">
             <div className="round"><h5>MongoDB</h5></div>
            <div className="round"><h5>HTML</h5></div>
-           </div>
-           <div className="rounded">
             <div className="round"><h5>CSS</h5></div>
            <div className="round"><h5>Tailwind CSS<br />Bootstrap</h5></div>
            </div>
-           <div className="rounded">
-            <div className="round"><h5>MySql</h5></div>
-           <div className="round"><h5>Nextjs</h5></div>
-           </div>
+          
         </div>
         <div className="skill-list-one" style={{marginTop:"-150px"}}>
         <h2><FaFlag className='icon'/> LANGUAGES </h2>
