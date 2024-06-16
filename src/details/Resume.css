@@ -222,8 +222,11 @@ text-align: left;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    hr{
-        display: flex;
-    }
+    .skill hr{
+        width: 80%;
+        height: 0.001em;
+        margin: 10px;
+        
+     }
 }
 

@@ -113,6 +113,12 @@
       align-items: center;
       margin: 10px;
    }
+   .work-container hr{
+      width: 100%;
+      height: 0.001em;
+      margin: 10px;
+      
+   }
    .work-done-box {
       display: grid;
       grid-template-columns: auto;

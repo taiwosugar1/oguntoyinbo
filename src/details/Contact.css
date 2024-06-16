@@ -82,6 +82,12 @@
         height: 200px;
        margin-right: 10px;
     }
+    .contact hr{
+        width: 90%;
+        height: 0.001em;
+        margin: 10px;
+        
+     }
     .address-one, .address-two{
         display: flex;
          flex-wrap: wrap;

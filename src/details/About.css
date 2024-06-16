@@ -93,6 +93,12 @@
         grid-template-columns: auto auto;
           
       }
+      .about hr{
+        width: 80%;
+        height: 0.001em;
+        margin: 10px;
+        
+     }
 
 }
 
