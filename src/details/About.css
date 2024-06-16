@@ -14,8 +14,7 @@
     color: rgb(93, 92, 92);
     text-align: justify;
     line-height: 30px;
-    max-width: 80%;
-    margin:5px 10px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
