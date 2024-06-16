@@ -14,7 +14,7 @@
     width: 540px;
     height: 200px;
 }
-.contact a{
+.contact button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,12 +31,14 @@
     -webkit-box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
     box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
 }
-.contact a:hover{
+.contact button:hover{
     text-decoration: underline;
 }
+
 .address-one, .address-two{
     display: flex;
-     
+     align-items: center;
+     justify-content: left;
 }
 
 .address-one h5, .address-two h5{
@@ -50,9 +52,7 @@
     color: rgb(93, 92, 92);
    
 }
-.address-two{
-   margin-left: -110px;
-}
+
 
 .contact input{
     width: 550px;
@@ -87,8 +87,14 @@
          flex-wrap: wrap;
          margin: 10px;
     }
+.contact-form{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 420px;
+}
     .contact input{
-        width: 470px;
+        width: 100%;
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
     }
@@ -117,5 +123,8 @@
         width: 470px;
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
+    }
+    .contact-form{
+       margin-left: 20px;
     }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact.css"
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 export const Contact = () => {
   return (
@@ -13,7 +14,7 @@ export const Contact = () => {
          <img src="image/map.png" alt="" />
 
        
-         <a href="https://maps.app.goo.gl/bVB84GPu43wmaNjW7" >View larger map</a>
+         <Link to="https://maps.app.goo.gl/bVB84GPu43wmaNjW7" ><button>View larger map</button></Link> 
          
          <div className="address-one">
              <h5>Address:</h5> <p>Shomolu, Lagos.</p>

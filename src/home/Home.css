@@ -157,7 +157,7 @@ hr{
     }
     .two{
         width: 480px;
-        height: 600px;
+        height: 500px;
         background: teal;
         display: flex;
         flex-direction: column;
