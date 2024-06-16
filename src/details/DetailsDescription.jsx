@@ -1,7 +1,7 @@
 import React from 'react'
 import "./DetailsDescription.css"
 import { FaSearch } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const DetailsDescription = () => {
   return (
@@ -15,7 +15,7 @@ const DetailsDescription = () => {
         
         <div className="post">
         <h3>Recent Posts</h3>
-      <Link to={"/contact"}><h4>Issues with IT Support and <br /> customer satisfaction</h4></Link> 
+      <NavLink to={"/blog"} style={{textDecoration:"none"}}><h4>Issues with IT Support and <br /> customer satisfaction</h4></NavLink> 
        
        </div>
 

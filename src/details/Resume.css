@@ -197,6 +197,11 @@ text-align: left;
         flex-wrap: wrap;
         margin-top: 20px;
     }
+    .resume .experience h4{
+        color: grey;
+        text-align: justify;
+        width: 250px;
+    }
     
     .rounded{
         display: grid;
