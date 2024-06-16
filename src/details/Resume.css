@@ -175,6 +175,12 @@ text-align: left;
 /* -----------Phone screen----------- */
 
 @media screen and (max-width: 480px){
+    .resume hr{
+        width: 80%;
+        height: 0.001em;
+        margin: 10px;
+        
+     }
     .skill-list{
         display: flex;
         flex-direction: column;
@@ -189,6 +195,7 @@ text-align: left;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 20px;
     }
     
     .rounded{
