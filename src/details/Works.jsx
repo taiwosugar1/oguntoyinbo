@@ -91,7 +91,7 @@ export const Categories = [
   image: 'image/web4-image.png',
   profession: "Web development",
   category: "web",
-  weblink:"https://my-rust-one.vercel.app/"
+  weblink:"https://multibrand-digital.vercel.app/"
 },
 {
   id: 6,
