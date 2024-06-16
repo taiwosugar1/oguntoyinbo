@@ -1,42 +1,44 @@
 import React from 'react'
 import "./DetailsDescription.css"
+import { FaSearch } from 'react-icons/fa'
 
 const DetailsDescription = () => {
   return (
-    <div>
+  
     <div className='details-description'>
-       <h3>Product Description</h3>
-       <div className='description-children'>
-         <ol>
-          <li>my page</li>
-          <li>my social media</li>
-          <li>my office</li>
-          <li>my integrity</li>
-          <li>my academy</li>
-          <li></li>
-          <li></li>
-          <li></li>
-         </ol>
+    
+        <div className="description">
+          <div className="input">
+             <input type="text" /> <FaSearch className='search-icon'/>
+          </div>
+        
+        <div className="post">
+        <h3>Recent Posts</h3>
 
+       <hr />
+       <h4>Issues with IT Support and <br /> customer satisfaction</h4>
+       <hr />
        </div>
-       <h3>Product Description</h3>
-       <div>
-         <ol>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-         </ol>
 
+       <div className="comment">
+       <h3>Recent Comments</h3>
+       <h4>No comments to show.</h4>
        </div>
+
+<div className="archieve">
+       <h3>Archives</h3>
+       <h4>June 2024</h4>
+       </div>
+      
+      <div className="category">
+       <h3>Categories</h3>
+       <h4>IT Support</h4>
     </div>
 
-
+          
+        </div>
     </div>
+   
   )
 }
 

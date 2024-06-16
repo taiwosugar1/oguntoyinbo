@@ -1,21 +1,35 @@
 .details-description{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+
+}
+
+.details-description .description{
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
 }
-.details-description .description-children ol{
+.details-description .description .input{
     display: flex;
- text-align: left;
-    justify-content: center;
-    flex-direction: column;
-    font-family: sans-serif;
-    font-size: 16px;
+    align-items: center;
+} 
+
+.details-description .description .input input{
+    display: block;
+    width: 300px;
+    height: 45px;
+    border: 0.1px solid grey;
+   
 }
-.details-description .description-children ol li{
-    color: rgb(67, 66, 66);
+.details-description .description .input .search-icon{
+    margin-left: -60px;
 }
-.details-description h3{
-    color: teal;
+
+.description hr{
+    height: 0.1px;
+    width: 500px;
+    color: rgb(220, 218, 218);
 }
 
