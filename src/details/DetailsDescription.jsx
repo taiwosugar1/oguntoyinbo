@@ -1,6 +1,7 @@
 import React from 'react'
 import "./DetailsDescription.css"
 import { FaSearch } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const DetailsDescription = () => {
   return (
@@ -14,10 +15,8 @@ const DetailsDescription = () => {
         
         <div className="post">
         <h3>Recent Posts</h3>
-
-       <hr />
-       <h4>Issues with IT Support and <br /> customer satisfaction</h4>
-       <hr />
+      <Link to={"/contact"}><h4>Issues with IT Support and <br /> customer satisfaction</h4></Link> 
+       
        </div>
 
        <div className="comment">
@@ -25,7 +24,7 @@ const DetailsDescription = () => {
        <h4>No comments to show.</h4>
        </div>
 
-<div className="archieve">
+       <div className="archieve">
        <h3>Archives</h3>
        <h4>June 2024</h4>
        </div>

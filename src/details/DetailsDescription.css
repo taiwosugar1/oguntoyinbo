@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    justify-content: start;
+   
 }
 .details-description .description .input{
     display: flex;
@@ -24,12 +26,72 @@
    
 }
 .details-description .description .input .search-icon{
-    margin-left: -60px;
+    margin-left: -40px;
 }
 
-.description hr{
-    height: 0.1px;
-    width: 500px;
-    color: rgb(220, 218, 218);
+
+.details-description .description .post{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+    height: 80px;
+    justify-content: start;
+    margin: 20px;
 }
+.details-description .description .post h4:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.details-description .description .comment{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+    justify-content: flex-start;
+    height: 70px;
+    margin: 20px;
+}
+
+.details-description .description .archieve{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+}
+
+.details-description .description .category{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    width: 300px;
+    height: 70px;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.details-description .description h3 {
+    color: rgb(40, 40, 40);
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 300px;
+   margin-bottom: -10px;
+}
+
+.details-description .description h4 {
+    color: grey;
+    font-weight: 300;
+    font-family: sans-serif;
+    width: 300px;
+
+    font-size: 15px;
+    border-top:0.2px solid rgb(196, 194, 194);
+    border-bottom:0.2px solid rgb(205, 205, 205);
+}
+
 

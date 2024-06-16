@@ -50,6 +50,7 @@ const Home = () => {
            
            
         <div className="box1"  style={{marginBottom:'10px'}}   onClick={handleToggle}><FaAlignLeft className='icon special-icon'/>
+        </div>
         {isOpen && ( // new conditional rendering
               <div className="details">
                 {/* add your details here */}
@@ -58,7 +59,7 @@ const Home = () => {
                
               </div>
             )}
-        </div>
+       
            <div className="box2 phone" >
             <div onClick={() => handleTabChange('about')}>
            <IoPersonSharp className='icon'/>
