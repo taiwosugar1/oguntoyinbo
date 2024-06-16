@@ -90,7 +90,30 @@
     margin: 10px;
     border: 0.5px solid grey;
 }
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
+    .blog-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: teal;
+    }
+    .blog-container .blog-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blog1{
+        width: 400px;
+        height: 200px;
+        background: white;
+    }
+}
+
+/* --------tab screen---------- */
+
+@media screen and (max-width: 600px){
     .blog-container{
         display: flex;
         justify-content: center;

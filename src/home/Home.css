@@ -150,7 +150,71 @@ hr{
 /*---------phone screen----------*/
 
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .two{
+        width: 480px;
+        height: 600px;
+        background: teal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        z-index: 999;
+       
+        -moz-box-shadow: 46px 3px 11px -43px rgba(0,0,0,0.05);
+        -webkit-box-shadow: 46px 3px 11px -43px rgba(0,0,0,0.05);
+        box-shadow: 46px 3px 11px -43px rgba(0,0,0,0.05);
+    }
+    .titles h2{
+        color: white;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 470px;
+        height: auto;
+        flex-wrap: wrap;
+        
+    }
+    .phone{
+        flex-direction: row;
+        display: flex;
+        width: 470px;
+        height: 70px;
+        top: 0;
+        position: sticky;
+    }
+    .phone .icon{
+        display: none; 
+    }
+    .phone h3{
+        padding: 3px 5px;
+        background: aqua;
+        margin: 0px 10px;
+    }
+    hr{
+        display: none;
+    }
+   
+    .special-icon{
+        display: block;
+        z-index: 10000;
+    }
+    details{
+        margin-left: 200px;
+    }
+}
+
+/* -----------tab screen---------- */
+
+@media screen and (max-width: 600px) {
     .container{
         display: flex;
         flex-direction: column;

@@ -173,7 +173,7 @@ text-align: left;
 
 /* -----------Phone screen----------- */
 
-@media only screen and (max-width: 480px){
+@media screen and (max-width: 480px){
     .skill-list{
         display: flex;
         flex-direction: column;
@@ -190,3 +190,24 @@ text-align: left;
         flex-wrap: wrap;
     }
 }
+
+/* --------tab screen--------- */
+
+@media screen and (max-width: 600px){
+    .skill-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 20px;
+        flex-wrap: wrap;
+    }
+    .resume .resume-experience{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
