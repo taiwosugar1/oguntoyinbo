@@ -65,7 +65,7 @@
     
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 490px){
     .my-services{
         display: flex;
         justify-content: center;

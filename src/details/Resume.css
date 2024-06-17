@@ -174,7 +174,7 @@ text-align: left;
 
 /* -----------Phone screen----------- */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 490px){
     .resume hr{
         width: 80%;
         height: 0.001em;
