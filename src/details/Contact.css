@@ -1,9 +1,12 @@
 
 .contact{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .contact h3 span{
@@ -63,6 +66,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin: 5px;
+    padding: 5px;
 }
 .contact-form button{
    margin: 30px 0px;
@@ -129,8 +134,12 @@
         width: 470px;
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
+        margin: 5px;
+        padding: 5px;
     }
     .contact-form{
-       margin-left: 20px;
+      margin: 10px;
+      padding: 5px;
+
     }
 }
