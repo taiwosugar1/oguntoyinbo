@@ -54,7 +54,7 @@ export const Works = () => {
 export const Categories = [
   {
     id: 1,
-    name: "E-commerce Sell App",
+    name: "E-commerce App",
     image: 'image/web7-image.png',
     profession: "E-commerce App",
     category: "web",
