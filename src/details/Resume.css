@@ -172,6 +172,40 @@ text-align: left;
     color: rgb(41, 40, 40);
 }
 
+
+/* --------tab screen--------- */
+
+@media screen and (max-width: 600px){
+    .skill-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 20px;
+        flex-wrap: wrap;
+    }
+    .resume .resume-experience{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .resume hr{
+        width: 80%;
+        height: 0.001em;
+        margin: 10px;
+     }
+    
+    .skill hr{
+        width: 80%;
+        height: 0.001em;
+        margin: 10px;
+        margin: 40px 10px;
+     }
+}
+
+
 /* -----------Phone screen----------- */
 
 @media screen and (max-width: 490px){
@@ -214,37 +248,5 @@ text-align: left;
        margin: 40px 10px;
        
     }
-}
-
-/* --------tab screen--------- */
-
-@media screen and (max-width: 600px){
-    .skill-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        line-height: 20px;
-        flex-wrap: wrap;
-    }
-    .resume .resume-experience{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .resume hr{
-        width: 80%;
-        height: 0.001em;
-        margin: 10px;
-     }
-    
-    .skill hr{
-        width: 80%;
-        height: 0.001em;
-        margin: 10px;
-        margin: 40px 10px;
-     }
 }
 

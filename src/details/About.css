@@ -5,6 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .about span{
@@ -69,6 +71,39 @@
     
 }
 
+/* ---------tab------------- */
+
+@media screen and (max-width: 600px){
+    .my-services{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 90%;
+        background: teal;
+
+    }
+    
+    .service{
+        width: 80%;
+        flex-wrap: wrap;
+        height: 400px;
+        border: 0.2px solid rgb(226, 213, 213);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       background: white;
+    }
+    .client .client-list{
+        display: grid;
+        grid-template-columns: auto auto;
+          
+      }
+
+}
+
 @media screen and (max-width: 490px){
     .my-services{
         display: flex;
@@ -111,37 +146,5 @@
         align-items: center;
         flex-wrap: wrap;
     }
-
-}
-
-/* ---------tab------------- */
-@media screen and (max-width: 600px){
-    .my-services{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        width: 90%;
-        background: teal;
-
-    }
-    
-    .service{
-        width: 80%;
-        flex-wrap: wrap;
-        height: 400px;
-        border: 0.2px solid rgb(226, 213, 213);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-       background: white;
-    }
-    .client .client-list{
-        display: grid;
-        grid-template-columns: auto auto;
-          
-      }
 
 }

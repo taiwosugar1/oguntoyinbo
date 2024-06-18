@@ -75,6 +75,41 @@
    height: 50px;
 }
 
+
+/* ---------tab screen-------- */
+
+@media screen and (max-width: 600px){
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact img{
+        width: 90%;
+        height: 200px;
+       margin-right: 10px;
+    }
+    .address-one, .address-two{
+        display: flex;
+         flex-wrap: wrap;
+         margin: 10px;
+    }
+    .contact input{
+        width: 470px;
+        height: 40px;
+        border: 0.5px solid rgb(222, 218, 218);
+        margin: 5px;
+        padding: 5px;
+    }
+    .contact-form{
+      margin: 10px;
+      padding: 5px;
+
+    }
+}
+
+
 @media screen and (max-width: 480px){
     .contact{
         display: flex;
@@ -108,38 +143,5 @@
         width: 100%;
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
-    }
-}
-
-/* ---------tab screen-------- */
-
-@media screen and (max-width: 600px){
-    .contact{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .contact img{
-        width: 90%;
-        height: 200px;
-       margin-right: 10px;
-    }
-    .address-one, .address-two{
-        display: flex;
-         flex-wrap: wrap;
-         margin: 10px;
-    }
-    .contact input{
-        width: 470px;
-        height: 40px;
-        border: 0.5px solid rgb(222, 218, 218);
-        margin: 5px;
-        padding: 5px;
-    }
-    .contact-form{
-      margin: 10px;
-      padding: 5px;
-
     }
 }
