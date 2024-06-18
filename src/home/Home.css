@@ -167,6 +167,7 @@ hr{
         justify-content: center;
         border-radius: 8px;
         z-index: 999;
+        padding: 30px 0px;
        
         -moz-box-shadow: 46px 3px 11px -43px rgba(0,0,0,0.05);
         -webkit-box-shadow: 46px 3px 11px -43px rgba(0,0,0,0.05);
