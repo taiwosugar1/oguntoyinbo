@@ -17,8 +17,7 @@
     text-align: justify;
     line-height: 30px;
     width: 80%;
-    margin: 5px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +73,18 @@
 /* ---------tab------------- */
 
 @media screen and (max-width: 600px){
+
+    .about p{
+        color: rgb(93, 92, 92);
+        text-align: justify;
+        line-height: 30px;
+        width: 80%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .my-services{
         display: flex;
         justify-content: center;
@@ -84,7 +95,7 @@
         background: teal;
 
     }
-    
+   
     .service{
         width: 80%;
         flex-wrap: wrap;
@@ -104,7 +115,7 @@
 
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 480px){
     .my-services{
         display: flex;
         justify-content: center;

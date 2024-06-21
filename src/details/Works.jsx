@@ -67,7 +67,7 @@ export const Categories = [
   image: 'image/web1-image.png',
   profession: "Web development",
   category: "web",
-  weblink:"https://my-appp-tau.vercel.app/"
+  weblink:"https://new-ecommerce-sooty.vercel.app//"
 },
 {
   id: 3,

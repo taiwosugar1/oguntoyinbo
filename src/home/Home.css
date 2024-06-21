@@ -159,7 +159,7 @@ hr{
     }
     .two{
         width: 480px;
-        height: 600px;
+        height: auto;
         background: teal;
         display: flex;
         flex-direction: column;
@@ -182,8 +182,7 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 470px;
-        height: auto;
+        width: 480px;
         flex-wrap: wrap;
         
     }
