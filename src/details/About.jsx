@@ -5,7 +5,6 @@ import { TfiWorld } from "react-icons/tfi";
 import { FaBook } from 'react-icons/fa6';
 import { FiPrinter } from 'react-icons/fi';
 import { FaChalkboardTeacher } from "react-icons/fa";
-import { IoMdAnalytics } from 'react-icons/io';
 
 
 const About = () => {
@@ -36,8 +35,7 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
     <p>
     A functional IT department is always a necessary condition for every firm's success and the foundation for business repositioning.</p>
   </div>
-</div>
-<div className="my-services">
+
   <div className="service">
     <FiPrinter className='web'/>
     <h2>IT Consulting</h2>
@@ -50,14 +48,13 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
     <p>
        Guiding the organization on everything from overall General Printing strategies such as type of technology and Quality control of all Productions etc.</p>
   </div>
-</div>
-<div className="my-services">
   <div className="service">
-    <IoMdAnalytics className='web'/>
-    <h2 style={{marginBottom:"-20px"}}>Economic Analysis</h2>
+  <FaBook className='web'/>
+  <h2>Economic Analysis</h2>
     <p>
-       I collect, clean, organise, and assess data sets in order to answer a question, solve an issue, provide insights, tell a narrative, or make it useful for decision making in a range of businesses and organisations.</p>
+    I organise, and assess data sets in order to answer a question, provide insights or make it useful for decision making in a range of businesses and organisations.</p>
   </div>
+
   <div className="service">
   <FaChalkboardTeacher className='web'/>
   <h2>Coaching & Training</h2>
@@ -72,8 +69,6 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
            <img src="image/exeter-image.png" alt="" />
            <img src="image/unilag-image.png" alt="" />
            <img src="image/metaphor-lab-image.png" alt="" />
-         
-       
            <img src="image/enspace-image.png" alt="" />
            <img src="image/gomycode-image.png" alt="" />
            <img src="image/ai-africa-image.png" alt="" />
