@@ -17,19 +17,17 @@
     text-align: justify;
     line-height: 30px;
     width: 80%;
-    margin: 5px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 .my-services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    align-items: center;
+     display: grid;
+     place-content: center;
+     grid-template-columns: auto auto;
+     text-align: center;
     margin: 5px;
     padding: 5px;
     width: 90%;
@@ -74,17 +72,28 @@
 /* ---------tab------------- */
 
 @media screen and (max-width: 600px){
-    .my-services{
+
+    .about p{
+        color: rgb(93, 92, 92);
+        text-align: justify;
+        line-height: 30px;
+        width: 80%;
+        padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .my-services{
+       display: grid;
+       place-content: center;
+       grid-template-columns: auto;
+       text-align: center;
         width: 90%;
         background: teal;
 
     }
-    
+   
     .service{
         width: 80%;
         flex-wrap: wrap;
@@ -104,7 +113,7 @@
 
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 480px){
     .my-services{
         display: flex;
         justify-content: center;
