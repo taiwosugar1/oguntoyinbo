@@ -61,6 +61,12 @@
     width: 80%;
     text-align: justify;
 }
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .client .client-list{
   display: grid;
