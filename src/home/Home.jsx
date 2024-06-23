@@ -127,11 +127,13 @@ const Home = () => {
             </div>
         </div>
         <div className="three">
+          <div className="three-container">
             {activeTab === 'about' && <About />}
             {activeTab === 'contact' && <Contact />}
             {activeTab === 'resume' && <Resume />}
             {activeTab === 'blog' && <Blog />}
             {activeTab === 'works' && <Works />}
+          </div>
         </div>
       </div>
     </div>

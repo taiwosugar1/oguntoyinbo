@@ -107,6 +107,13 @@ hr{
     scrollbar-color: gray white;
 
   }
+  .three-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
   
 .image-container img{
@@ -273,11 +280,12 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 470px;
+        width: 100%;
         height: auto;
         flex-wrap: wrap;
         
     }
+   
     .box2{
         flex-direction: row;
         display: flex;
