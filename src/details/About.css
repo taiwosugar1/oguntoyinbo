@@ -12,23 +12,29 @@
 .about span{
     color: royalblue;
 }
-.about p{
-    color: rgb(93, 92, 92);
-    text-align: justify;
-    line-height: 30px;
-    width: 80%;
-    padding: 10px;
+.about-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.about-paragraph {
+    text-align: justify;
+    line-height: 30px;
+    width: 90%;
+
+}
+.about-body-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .my-services{
      display: grid;
      place-content: center;
      grid-template-columns: auto auto;
      text-align: center;
-    margin: 5px;
     padding: 5px;
     width: 90%;
 }
@@ -52,8 +58,8 @@
     height: 40px;
 }
 .service p{
-    width: 260px;
-    text-align: center;
+    width: 80%;
+    text-align: justify;
 }
 
 .client .client-list{
@@ -65,7 +71,7 @@
     display: flex;
     width: 140px;
     height: 100px;
-    margin: 15px;
+    margin: 10px;
     
 }
 
@@ -73,17 +79,7 @@
 
 @media screen and (max-width: 600px){
 
-    .about p{
-        color: rgb(93, 92, 92);
-        text-align: justify;
-        line-height: 30px;
-        width: 80%;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+    
     .my-services{
        display: grid;
        place-content: center;
@@ -120,20 +116,23 @@
         align-items: center;
         text-align: center;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         background: teal;
     }
     
     .service{
-        width: 80%;
+        width: 90%;
         flex-wrap: wrap;
-        height: 400px;
+        height: 420px;
         border: 0.2px solid rgb(226, 213, 213);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
        background: white;
+    }
+    .service p{
+        text-align: center;
     }
     .client .client-list{
         display: grid;
@@ -145,16 +144,6 @@
         height: 0.001em;
         margin: 10px; 
      }
-     .about p{
-        color: rgb(93, 92, 92);
-        text-align: justify;
-        line-height: 30px;
-        width: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
+  
 
 }
-
