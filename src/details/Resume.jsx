@@ -25,6 +25,7 @@ export const Resume = () => {
   }, []);
   return (
     <div className='resume'>
+      
       <h3 className='head'><span>R</span>esume</h3>
       <hr />
 
@@ -69,7 +70,7 @@ export const Resume = () => {
         
         <span className="date" style={{marginTop:"60px"}}>2023 - 2024</span>
         <div className="image">
-        <h3>Javascript Fullstack Developement with MernStack</h3>
+        <h3>Javascript Fullstack <br />Developement <br />with MernStack</h3>
         <img src="https://media.licdn.com/dms/image/sync/C4E27AQH6sPA5g1UnJQ/articleshare-shrink_800/0/1711585354417?e=2147483647&v=beta&t=OSlvHorigRzq29vVI26QTH9OpNN2WfLGxVYBywqNC08" alt="" />
         </div>
         <p>Yaba, Lagos, Nigeria (Online)</p>
