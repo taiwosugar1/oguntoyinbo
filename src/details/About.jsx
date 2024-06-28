@@ -5,6 +5,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { FaBook } from 'react-icons/fa6';
 import { FiPrinter } from 'react-icons/fi';
 import { FaChalkboardTeacher } from "react-icons/fa";
+import AnimationRotate from './AnimationRotate';
 
 
 const About = () => {
@@ -16,6 +17,7 @@ const About = () => {
       <h3><span>A</span>BOUT ME</h3>
 
       <hr />
+      <AnimationRotate/>
       <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional.
 
 Due to my strong interpersonal abilities, I am able to get the cooperation of senior management, clients, and members of other departments.
@@ -69,6 +71,7 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
 <div className="client">
          <h3><span>C</span>LIENTS</h3>
    <hr />
+    
          <div className="client-list">
            <img src="image/exeter-image.png" alt="" />
            <img src="image/unilag-image.png" alt="" />
