@@ -17,6 +17,7 @@ const About = () => {
       <h3><span>A</span>BOUT ME</h3>
 
       <hr />
+      
       <AnimationRotate/>
       <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional.
 

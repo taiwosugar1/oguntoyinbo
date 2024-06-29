@@ -24,6 +24,7 @@
     width: 90%;
 
 }
+
 .about-body-two{
     display: flex;
     align-items: center;
@@ -150,6 +151,12 @@
         height: 0.001em;
         margin: 10px; 
      }
+     .about-paragraph {
+        text-align: justify;
+        line-height: 30px;
+        width: 90%;
+       margin-top: -120px;
+    }
   
 
 }
