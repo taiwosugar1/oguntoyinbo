@@ -9,16 +9,18 @@
 .work-done-box {
     display: grid;
     grid-template-columns: auto auto;
+    place-content: center;
 }
 .work-done-box .work-done {
    display: flex;
    align-items: center;
    justify-content: center;
+   flex-direction: column;
 }
 .work-done-box .work-done .work {
    
    width: 250px;
-   height: 280px;
+   height: 300px;
    border: 0.5px solid rgb(210, 207, 207);
    margin:10px;
 }
@@ -30,8 +32,8 @@
     transform: scale(1.05);
     transition: 0.4s ease-in-out;
     z-index: 999;
-  filter: contrast(50%);
-  
+    filter: contrast(50%);
+   box-shadow: 3px 3px 10px grey;
  }
  .work-done-box .work-done  .work  h3 {
    padding: 0px 10px;
