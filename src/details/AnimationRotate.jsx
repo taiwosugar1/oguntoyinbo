@@ -1,9 +1,10 @@
 import React from 'react';
 import './AnimationRotate.css';
+import { useNavigate } from 'react-router-dom';
 
 const images = [
   { id: 1, src: "/image/image1.png", alt: "Image 1" },
-  { id: 2, src: "/image/image2.png", alt: "Image 2" },
+  { id: 2, src: "/image/image2.png", alt: "Image 2",},
   { id: 3, src: "/image/image3.png", alt: "Image 3" },
   { id: 4, src: "/image/image4.png", alt: "Image 4" },
   { id: 5, src: "/image/image5.png", alt: "Image 5" },
@@ -15,12 +16,16 @@ const images = [
 ];
 
 const AnimationRotate = () => {
+  const navigate = useNavigate()
+  const handleNavigate = () => {
+    navigate(("/works"))
+  }
   return (
     <div className="banner">
       <div className="slider" style={{ "--quantity": images.length }}>
         {images.map((image, index) => (
           <div key={image.id} className="item" style={{ "--position": index + 1 }}>
-            <img src={image.src} alt={image.alt} />
+            <img src={image.src} alt={image.alt}  onClick={handleNavigate} />
           </div>
         ))}
       </div>

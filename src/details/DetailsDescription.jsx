@@ -15,7 +15,7 @@ const DetailsDescription = () => {
         
         <div className="post">
         <h3>Recent Posts</h3>
-      <NavLink to={"/blog"} style={{textDecoration:"none"}}><h4>Issues with IT Support and <br /> customer satisfaction</h4></NavLink> 
+      <NavLink to={"https://modern-networks.co.uk/it-services/the-impact-of-it-support-services-on-customer-satisfaction"} style={{textDecoration:"none"}}><h4>Issues with IT Support and <br /> customer satisfaction</h4></NavLink> 
        
        </div>
 

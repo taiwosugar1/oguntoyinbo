@@ -53,8 +53,7 @@ const Home = () => {
         </div>
         {isOpen && ( // new conditional rendering
               <div className="details">
-                {/* add your details here */}
-         
+              
                   <DetailsDescription/>
                
               </div>
