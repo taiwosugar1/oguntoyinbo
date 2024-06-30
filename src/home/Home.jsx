@@ -51,7 +51,7 @@ const Home = () => {
            
         <div className="box1"  style={{marginBottom:'10px'}}   onClick={handleToggle}><FaAlignLeft className='icon special-icon'/>
         </div>
-        {isOpen && ( // new conditional rendering
+        {isOpen && ( 
               <div className="details">
               
                   <DetailsDescription/>

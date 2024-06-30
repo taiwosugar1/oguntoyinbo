@@ -1,0 +1,115 @@
+.tool-section{
+    background: teal;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    border-radius: 5px;
+    
+}
+.circle-box{
+    background: white;
+    width: 100px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    box-shadow:0  3px 12px 0px rgb(0, 0, 0, 0.2);
+    transition: all 0.8s;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.circle-percentage{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.circle-percentage svg circle{
+    width: 100px;
+    height: 100px;
+    fill: none;
+    stroke-width: 7;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;
+    stroke-linecap: round;
+}
+.circle-box .circle-percentage svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #b8b6b6;
+}
+.circle-box .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 10em;
+    stroke: #03a9f4;
+}
+.circle-box:nth-child(2) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 9.5em;
+    stroke: #f47303;
+}
+.circle-box:nth-child(3) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 12.5em;
+    stroke: #f4039c;
+}
+.circle-box:nth-child(4) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 12.2em;
+    stroke: rgb(17, 173, 201);
+}
+.circle-box:nth-child(5) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 13em;
+    stroke: green;
+}
+.circle-box:nth-child(6) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 12.7em;
+    stroke: #880759;
+}
+.circle-box:nth-child(7) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 10.5em;
+    stroke: #f4039c;
+}
+.circle-box:nth-child(8) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 10em;
+    stroke: #081f66;
+}
+.circle-box:nth-child(9) .circle-percentage svg circle:nth-child(2){
+    stroke-dashoffset: 7em;
+    stroke: #efe52f;
+}
+.circle-text{
+    margin-top: -10px;
+  
+}
+
+.circle-box .circle-percentage .circle-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.circle-box .circle-percentage .circle-number h5{
+    font-size: 20px;
+}
+.circle-box .circle-percentage .circle-number h2 span{
+    font-size: 15px;
+}
+@media screen and (max-width: 480px){
+    .tool-section{
+        background: transparent;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        place-content: center;
+    }
+    
+    .circle-box:hover{
+        transform: scale(1.2);
+    }
+}

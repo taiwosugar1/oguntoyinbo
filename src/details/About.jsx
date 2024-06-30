@@ -6,7 +6,7 @@ import { FaBook } from 'react-icons/fa6';
 import { FiPrinter } from 'react-icons/fi';
 import { FaChalkboardTeacher } from "react-icons/fa";
 import AnimationRotate from './AnimationRotate';
-
+// import LogoAnimation from './LogoAnimation';
 
 const About = () => {
   return (
@@ -15,10 +15,12 @@ const About = () => {
     <div>
       <div  className='about-body'>
       <h3><span>A</span>BOUT ME</h3>
-
+     
       <hr />
       
+
       <AnimationRotate/>
+      {/* <LogoAnimation/> */}
       <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional.
 
 Due to my strong interpersonal abilities, I am able to get the cooperation of senior management, clients, and members of other departments.
