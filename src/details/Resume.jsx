@@ -45,7 +45,7 @@ export const Resume = () => {
         </div>
         <div className="experience">
         <h3 style={{marginTop:"-50px"}}>EDUCATION</h3>
-        <span className="date">2018 - Present</span>
+        <span className="date">2018</span>
         <div className="image">
         <h3>University of Lagos</h3>
         <img src="https://iconape.com/wp-content/files/wf/195254/svg/195254.svg" alt="" style={{width:"50px", marginLeft:"20px"}}/>
@@ -69,7 +69,7 @@ export const Resume = () => {
         </div>
         <div className="experience">
         
-        <span className="date" style={{marginTop:"60px"}}>2023 - 2024</span>
+        <span className="date" style={{marginTop:"60px"}}>2021-2022</span>
         <div className="image">
         <h3>Javascript Fullstack <br />Developement <br />with MernStack</h3>
         <img src="https://media.licdn.com/dms/image/sync/C4E27AQH6sPA5g1UnJQ/articleshare-shrink_800/0/1711585354417?e=2147483647&v=beta&t=OSlvHorigRzq29vVI26QTH9OpNN2WfLGxVYBywqNC08" alt="" />
