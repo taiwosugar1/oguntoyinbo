@@ -115,7 +115,7 @@ const Home = () => {
 
                   <Link to="https://linkedin.com/in/oguntoyinbo-taiwo-894466127"><BsLinkedin  className='icon'/></Link>
 
-                 <!-- <Link to="https://github.com/taiwosugar1">< FaGithub className='icon'/></Link>-->
+                
                 </div>
 
                 <hr />
