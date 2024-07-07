@@ -39,5 +39,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <style>@media (max-width: 320px){.include-media-test{background-color:#def}.include-media-test:before{content:"<=phone"}}@media (min-width: 321px){.include-media-test{background-color:#abc}.include-media-test:before{content:">phone"}}@media (min-width: 815px) and (max-width: 1023px){.include-media-test{background-color:#fed}.include-media-test:before{content:">=815px, <desktop"}}@media (min-width: 1024px){.include-media-test{background-color:#fab}.include-media-test:before{content:">=desktop"}}@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){.include-media-test:after{content:"Retina"!important}}.page-container{min-height:60vh}.has-sticky-header header{top:0}.has-sticky-header .page-container{margin-top:88px}.has-sticky-header .page-container .spinner-card{margin-top:15rem!important}@media screen and (max-width: 479px){.has-sticky-header .page-container{margin-top:56px}}@media screen and (max-width: 768px){.has-sticky-header header{top:0}.has-sticky-header .page-container{margin-top:56px}.has-sticky-header .page-container .spinner-card{margin-top:10rem!important}}
+    </style>
   </body>
 </html>

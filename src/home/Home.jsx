@@ -16,6 +16,7 @@ import { Works } from '../details/Works';
 import { MdPerson } from "react-icons/md";
 import DetailsDescription from '../details/DetailsDescription';
 import { Link } from 'react-router-dom';
+import SocialAnimate from '../details/SocialAnimate';
 
 
 
@@ -23,7 +24,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     const [activeTab, setActiveTab] = useState('about');
     const [titleIndex, setTitleIndex] = useState(0);
-    const [isOpen, setIsOpen] = useState(false); // new state variable
+    const [isOpen, setIsOpen] = useState(false); 
 
     const handleTabChange = (tab) => {
       setActiveTab(tab);
@@ -107,7 +108,8 @@ const Home = () => {
              ][titleIndex]}
               </div>
                 <div className="social">
-                 <Link to="https://instagram.com/multibrandprints"><FaInstagramSquare className='icon'/></Link>
+                  <SocialAnimate/>
+                 {/* <Link to="https://instagram.com/multibrandprints"><FaInstagramSquare className='icon'/></Link>
 
                  <Link to="https://github.com/taiwosugar1"> <FaFacebookSquare className='icon'/></Link> 
 
@@ -115,7 +117,7 @@ const Home = () => {
 
                   <Link to="https://linkedin.com/in/oguntoyinbo-taiwo-894466127"><BsLinkedin  className='icon'/></Link>
 
-                  <Link to="https://github.com/taiwosugar1">< FaGithub className='icon'/></Link>
+                  <Link to="https://github.com/taiwosugar1">< FaGithub className='icon'/></Link> */}
                 </div>
 
                 <hr />
@@ -135,6 +137,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   )
 }
