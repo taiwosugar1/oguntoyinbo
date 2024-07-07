@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaApple, FaFacebook, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaApple, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import "./SocialAnimate.css"
 
 const SocialAnimate = () => {
@@ -7,7 +7,7 @@ const SocialAnimate = () => {
     <div className='social-animate'>
         <ul>
             <li>
-                <a href="#">
+                <a href="https://facebook.com/multibrandprint">
                     <i  className='fab'><FaFacebook/></i>
                 </a>
             </li>
@@ -22,8 +22,13 @@ const SocialAnimate = () => {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/taiwosugar1">
-                    <i className='fab'><FaGithub/></i>
+                <a href="https:">
+                    <i className='fab'><FaApple/></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/oguntoyinbo-taiwo-894466127">
+                    <i className='fab'><FaLinkedin/></i>
                 </a>
             </li>
         </ul>

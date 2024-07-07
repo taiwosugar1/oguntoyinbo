@@ -1,11 +1,11 @@
 .social-animate{
     display: flex;
     justify-content: center;
-    width: 350px;
+    width: 400px;
+    padding: 0px 10px;
     height: 120px;
     background: teal;
     border-radius: 10px;
-    margin: 10px;
     border: inset;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -76,7 +76,7 @@ li:nth-child(1):hover a::before{
     background: #5e77ab;
 }
 li:nth-child(2):hover a{
-    background: #e4405f;
+    background: #c9179a;
 }
 li:nth-child(2):hover a::after{
     background: #e7617a;
@@ -101,4 +101,14 @@ li:nth-child(4):hover a::after{
 }
 li:nth-child(4):hover a::before{
     background: #171717;
+}
+
+li:nth-child(5):hover a{
+    background: #3b5999;
+}
+li:nth-child(5):hover a::after{
+    background: #4c68a2;
+}
+li:nth-child(5):hover a::before{
+    background: #5e77ab;
 }

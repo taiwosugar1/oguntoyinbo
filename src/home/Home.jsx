@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "./Home.css"
-import { FaAlignLeft, FaGithub } from "react-icons/fa6";
 import { FaAt } from "react-icons/fa";
-import { BsLinkedin, BsPersonWorkspace, BsTwitter } from "react-icons/bs";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiSolidMessageSquareDetail } from "react-icons/bi";
 import { IoPersonSharp } from "react-icons/io5";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
+import { BsLinkedin, BsPersonWorkspace, BsTwitter } from "react-icons/bs";
+// import { Link } from 'react-router-dom';
+// import { FaInstagramSquare } from "react-icons/fa";
+ import { FaAlignLeft, FaGithub } from "react-icons/fa6";
+// import { FaFacebookSquare } from "react-icons/fa";
 import About from '../details/About';
 import { Contact } from '../details/Contact';
 import { Resume } from '../details/Resume';
@@ -15,7 +16,6 @@ import { Blog } from '../details/Blog';
 import { Works } from '../details/Works';
 import { MdPerson } from "react-icons/md";
 import DetailsDescription from '../details/DetailsDescription';
-import { Link } from 'react-router-dom';
 import SocialAnimate from '../details/SocialAnimate';
 
 
