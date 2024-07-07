@@ -132,9 +132,9 @@ export const Resume = () => {
         </div>
        
         <div className="skill-list-one" style={{marginTop:"-150px"}}>
-        <h2><FaFlag className='icon'/> LANGUAGES </h2>
+        <h2 className='rank-h2'><FaFlag className='icon'/> LANGUAGES </h2>
         <hr style={{width:"100%", height:"0.5px", background:"grey"}}/>
-         <h3>English</h3>
+         <h3 className='rank-h3'>English</h3>
          <div className="rank">
           <div className="rank-round"></div>
           <div className="rank-round"></div>
@@ -148,7 +148,7 @@ export const Resume = () => {
           <div className="rank-round"></div>
           </div>
 
-          <h3>French</h3>
+          <h3 className='rank-h3'>French</h3>
           <div className="rank">
           <div className="rank-round"></div>
          

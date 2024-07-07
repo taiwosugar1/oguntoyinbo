@@ -144,8 +144,12 @@ text-align: left;
     padding: 10px;  
   
 }
+.rank-h3, .rank-h2{
+    margin-left: 20px;
+}
 .rank{
     display: flex;
+    margin-left: 20px;
 }
 .rank-round{
     width: 17px;

@@ -150,6 +150,14 @@ export const Categories = [
   category: "print",
   weblink:"https://www.instagram.com/p/Clbw6WfsYJ9/"
 },
+{
+  id: 13,
+  name: "Immigration Website",
+  image: 'image/web8-image.png',
+  profession: " Personal Website",
+  category: "web",
+  weblink:"https://diamond-visa.vercel.app/"
+},
 // {
 //   id: 11,
 //   name: "Music Web Application",
