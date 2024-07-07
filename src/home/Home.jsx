@@ -117,7 +117,11 @@ const Home = () => {
 
                   <Link to="https://linkedin.com/in/oguntoyinbo-taiwo-894466127"><BsLinkedin  className='icon'/></Link>
 
+<<<<<<< HEAD
                   <Link to="https://github.com/taiwosugar1">< FaGithub className='icon'/></Link> */}
+=======
+                
+>>>>>>> refs/remotes/origin/main
                 </div>
 
                 <hr />
