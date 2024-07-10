@@ -23,7 +23,7 @@ const DifferentAnimation = () => {
         <br /><hr /><br />
         <Sliders/>
         <br /><hr /><br />
-        <ImageSlider/>
+        {/* <ImageSlider/> */}
         </div>
   )
 }
