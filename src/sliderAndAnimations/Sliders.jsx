@@ -21,7 +21,7 @@ const SliderWrapper = styled.div`
 
 const Slider = styled.div`
   display: flex;
-  width: 100%;
+  width: 110%;
   height: 400px;
   animation: ${slide} 30s linear infinite;
 `;
