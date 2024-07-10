@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { SliderWrapper, Slider, Slide, Image } from './SliderStyles';
-import images from './Image.js';
+import images from './Images.js';
 
 
 const ImageSlider = () => {
