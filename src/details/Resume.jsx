@@ -7,7 +7,7 @@ import { GiOpenBook } from 'react-icons/gi';
 import { IoMdCheckmark } from 'react-icons/io';
 import { FaFlag } from 'react-icons/fa6';
 import { TbTools } from 'react-icons/tb';
-import ResumingToolsPercentage from './ResumingToolsPercentage';
+import ResumingToolsPercentage from '../sliderAndAnimations/ResumingToolsPercentage';
 
 
 export const Resume = () => {

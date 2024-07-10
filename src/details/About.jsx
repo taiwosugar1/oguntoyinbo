@@ -5,7 +5,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { FaBook } from 'react-icons/fa6';
 import { FiPrinter } from 'react-icons/fi';
 import { FaChalkboardTeacher } from "react-icons/fa";
-import AnimationRotate from './AnimationRotate';
+import AnimationRotate from '../sliderAndAnimations/AnimationRotate';
 // import LogoAnimation from './LogoAnimation';
 
 const About = () => {

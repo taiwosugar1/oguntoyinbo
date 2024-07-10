@@ -16,7 +16,7 @@ import { Blog } from '../details/Blog';
 import { Works } from '../details/Works';
 import { MdPerson } from "react-icons/md";
 import DetailsDescription from '../details/DetailsDescription';
-import SocialAnimate from '../details/SocialAnimate';
+import SocialAnimate from '../sliderAndAnimations/SocialAnimate';
 
 
 

@@ -1,9 +1,6 @@
 import React from 'react'
 import './Blog.css'
-import LogoAnimation from './LogoAnimation';
-import AnimationRotate from './AnimationRotate';
-import ResumingToolsPercentage from './ResumingToolsPercentage';
-import SocialAnimate from './SocialAnimate';
+import { Link } from 'react-router-dom';
 
 export const Blog = () => {
   return (
@@ -25,17 +22,19 @@ export const Blog = () => {
 	<div className="blog-container">
          <div className="blog-box">
 
-			<div className="blog1"> <AnimationRotate/></div>
-			<div className="blog1"><LogoAnimation/></div>
+			<div className="blog1"></div>
+			<div className="blog1"></div>
 			
 		 </div>
 
 
 		 <div className="blog-box">
-		     <div className="blog1"><ResumingToolsPercentage/></div>
-		     <div className="blog1"><SocialAnimate/></div>
+		     <div className="blog1"></div>
+		     <div className="blog1"></div>
 	     </div>
+
 	</div>
+	<Link to={"/different-animation"}><button style={{marginLeft:"235px", marginBottom:"20px"}}> Animations</button></Link>
 	</div>
   )
 };
