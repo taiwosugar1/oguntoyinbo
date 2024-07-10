@@ -1,13 +1,13 @@
 .image-slider {
-    width: 600px;
-    height: 400px;
+    width: 300px;
+    height: 250px;
     overflow: hidden;
     position: relative;
     margin: 50px;
 }
 .image-slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 .image-slide {
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
     object-fit: cover;
     min-width: 100%;
-    height: 100%;
+    height: 250px;
     box-sizing: border-box;
 }
 .image-slide img {
