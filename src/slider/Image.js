@@ -1,7 +1,5 @@
 // src/Images.js
 
-import React from 'react';
-
 const images = [
   {
     src: 'images/france.jpg',

@@ -2,7 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 import { SliderWrapper, Slider, Slide, Image } from './SliderStyles';
-import images from './Images';
+import images from './Image.js';
+
 
 const ImageSlider = () => {
   const [index, setIndex] = useState(0);
@@ -10,7 +11,7 @@ const ImageSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [images.length]);

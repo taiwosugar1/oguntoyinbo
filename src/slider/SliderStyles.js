@@ -19,7 +19,7 @@ export const SliderWrapper = styled.div`
 
 export const Slider = styled.div`
   display: flex;
-  width: 1000%;
+  width: 100%;
   animation: ${slide} 30s linear infinite;
 `;
 

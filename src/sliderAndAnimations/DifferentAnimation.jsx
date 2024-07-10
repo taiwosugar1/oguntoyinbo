@@ -5,6 +5,7 @@ import ResumingToolsPercentage from './ResumingToolsPercentage'
 import SocialAnimate from './SocialAnimate'
 import { Link } from 'react-router-dom'
 import Sliders from '../sliderAndAnimations/Sliders';
+import ImageSlider from '../slider/ImageSlider'
 
 const DifferentAnimation = () => {
   return (
@@ -21,6 +22,8 @@ const DifferentAnimation = () => {
         <SocialAnimate/>
         <br /><hr /><br />
         <Sliders/>
+        <br /><hr /><br />
+        <ImageSlider/>
         </div>
   )
 }
