@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: teal;
+    background: rgb(9, 172, 162);
 }
 .container{
     display: flex;
