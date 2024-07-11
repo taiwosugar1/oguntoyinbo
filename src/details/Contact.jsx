@@ -2,6 +2,7 @@ import React from 'react'
 import "./Contact.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import Feedback from './Feedback';
 
 export const Contact = () => {
   return (
@@ -30,21 +31,7 @@ export const Contact = () => {
         <div className="contact-form">
            <h3><span>C</span>ontact Form</h3>
            <hr />
-           <h5>Your Name</h5>
-           <input type="text" />
-
-          <h5>Your Email</h5>
-           <input type="text" />
-
-           <h5>Subject</h5>
-           <input type="text" />
-
-           <h5>Your message (optional)</h5>
-           <input type="text" style={{height:"90px"}} />
-
-           <button><h4>SEND MESSAGE <FaArrowRightLong /></h4></button>
-
-           <input type="text" placeholder='We Remain the Best in All that We do'/>
+         <Feedback/>
 
          </div>
       </div> 

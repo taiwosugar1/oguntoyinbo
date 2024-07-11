@@ -6,6 +6,7 @@ import SocialAnimate from './SocialAnimate'
 import { Link } from 'react-router-dom'
 import Sliders from '../sliderAndAnimations/Sliders';
 import ImageSlider2 from '../sliderAndAnimations/ImageSlider2'
+import Feedback from '../details/Feedback'
 
 const DifferentAnimation = () => {
   return (
@@ -25,6 +26,7 @@ const DifferentAnimation = () => {
         <br /><hr /><br />
         {/* <ImageSlider/> */}
         <ImageSlider2/>
+        <Feedback/>
         </div>
   )
 }

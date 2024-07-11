@@ -17,26 +17,7 @@
     width: 540px;
     height: 200px;
 }
-.contact button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(0, 115, 255);
-    text-decoration: none;
-    margin: 10px 0px;
-    padding: 10px;
-    width: 200px;
-    height: 35px;
-    background: white;
-    cursor: pointer;
-    border-radius: 5px;
-    -moz-box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
-    -webkit-box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
-    box-shadow: 1px -1px 8px 0px rgba(0,0,0,0.35);
-}
-.contact button:hover{
-    text-decoration: underline;
-}
+
 
 .address-one, .address-two{
     display: flex;
@@ -57,18 +38,7 @@
 }
 
 
-.contact input{
-    width: 550px;
-    height: 40px;
-    border: 0.5px solid rgb(222, 218, 218);
-}
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin: 5px;
-    padding: 5px;
-}
+
 .contact-form button{
    margin: 30px 0px;
    width: 150px;
@@ -96,7 +66,7 @@
          margin: 10px;
     }
     .contact input{
-        width: 470px;
+        
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
         margin: 5px;
@@ -140,7 +110,6 @@
     width: 420px;
 }
     .contact input{
-        width: 100%;
         height: 40px;
         border: 0.5px solid rgb(222, 218, 218);
     }
