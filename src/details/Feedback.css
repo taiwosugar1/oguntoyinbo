@@ -59,10 +59,10 @@
     justify-content: center;
     color: rgb(0, 115, 255);
     text-decoration: none;
-    margin: 10px 0px;
-    padding: 10px;
+    margin: 0px;
+    padding: 4px;
     width: 200px;
-    height: 45px;
+    height: 35px;
     background: white;
     cursor: pointer;
     border-radius: 5px;
