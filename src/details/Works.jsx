@@ -158,6 +158,14 @@ export const Categories = [
   category: "web",
   weblink:"https://diamond-visa.vercel.app/"
 },
+{ 
+id: 14,
+name: "Printing Website",
+image: 'image/web9-image.png',
+profession: " Personal Website",
+category: "web",
+weblink:"https://printing-web-neon.vercel.app/"
+},
 // {
 //   id: 11,
 //   name: "Music Web Application",
