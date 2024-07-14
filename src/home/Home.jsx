@@ -109,17 +109,6 @@ const Home = () => {
               </div>
                 <div className="social">
                   <SocialAnimate/>
-                 {/* <Link to="https://instagram.com/multibrandprints"><FaInstagramSquare className='icon'/></Link>
-
-                 <Link to="https://github.com/taiwosugar1"> <FaFacebookSquare className='icon'/></Link> 
-
-                 <Link to="https://twitter.com/oguntoyintaiwo"><BsTwitter className='icon'/></Link> 
-
-                  <Link to="https://linkedin.com/in/oguntoyinbo-taiwo-894466127"><BsLinkedin  className='icon'/></Link>
-
-
-                  <Link to="https://github.com/taiwosugar1">< FaGithub className='icon'/></Link> */}
-
                 
                 </div>
 
