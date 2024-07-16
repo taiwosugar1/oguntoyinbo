@@ -1,96 +1,62 @@
-import React, { useState, useEffect } from 'react';
-import emailjs from 'emailjs-com';
-import './Feedback.css';  // Import the CSS file
-import { FaArrowRightLong } from 'react-icons/fa6';
+import React, { useRef } from 'react';
+import "./Feedback.css";
+import Swal from 'sweetalert2';
 
-const FeedbackComponent = () => {
-  const [feedbacks, setFeedbacks] = useState([]);
-  const [newFeedback, setNewFeedback] = useState('');
-  const [email, setEmail] = useState('');
+const Contact = () => {
+  const formRef = useRef(null);
 
-  useEffect(() => {
-    // Load feedbacks from localStorage on component mount
-    const storedFeedbacks = JSON.parse(localStorage.getItem('feedbacks')) || [];
-    setFeedbacks(storedFeedbacks);
-  }, []);
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
 
-  const handleFeedbackChange = (e) => {
-    setNewFeedback(e.target.value);
-  };
+    formData.append("access_key", "9ab45988-b259-4d8c-b405-77bab6aef08c");
 
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
 
-    if (newFeedback.trim() && email.trim()) {
-      const updatedFeedbacks = [...feedbacks, { feedback: newFeedback, email }];
-      setFeedbacks(updatedFeedbacks);
-      localStorage.setItem('feedbacks', JSON.stringify(updatedFeedbacks));
-      sendEmail();
-      setNewFeedback('');
-      setEmail('');
+    if (res.success) {
+      Swal.fire({
+        title: "Success",
+        text: "Message sent successfully",
+        icon: "success"
+      });
+      clearForm();
     }
   };
 
-  const sendEmail = () => {
-    const templateParams = {
-      feedback: newFeedback,
-      email: email,
-    };
-
-    emailjs.send('service_t6mkxje', 'template_09dkr2y', templateParams, 'uYcQfADfKeUw-K3Js')
-      .then((response) => {
-        console.log('Email sent successfully!', response.status, response.text);
-      }, (error) => {
-        console.log('Failed to send email.', error);
-      });
-  };
-
-  const handleClearFeedbacks = () => {
-    localStorage.removeItem('feedbacks');
-    setFeedbacks([]);
+  const clearForm = () => {
+    formRef.current.reset();
   };
 
   return (
-    <div className='feedback'>
-      <div className="feedback-container">
-        <div className='feedback-box-for-form'>
-          <form onSubmit={handleSubmit} className='feedback-form'>
-            <textarea
-              value={newFeedback}
-              onChange={handleFeedbackChange}
-              placeholder="Leave your feedback here"
-              className='feedback-textarea'
-            />
-            <input
-              type="email"
-              value={email}
-              onChange={handleEmailChange}
-              placeholder="Your email address"
-              className='feedback-input'
-            />
-            
-            <button type="submit" className='feedback-button'><h4>SEND MESSAGE <FaArrowRightLong /></h4></button>
-          </form>
+    <section className='contact-form'>
+      <h1>Message Us Here</h1>
+      <form onSubmit={onSubmit} ref={formRef}>
+        <div className="input-box">
+          <input type="text" placeholder='Full Name' name='name' required className='field' />
         </div>
-        <h3 className='feedback-h3'>All Feedbacks</h3>
-        <div className='feedback-map'>
-          <div className='feedback-ul'>
-            {feedbacks.map((item, index) => (
-              <p key={index} className='feedback-li'>
-                {item.feedback} (Email: {item.email})
-              </p>
-            ))}
-          </div>
+
+        <div className="input-box">
+          <input type="email" placeholder='Enter your email' name='email' required className='field' />
         </div>
-        <button onClick={handleClearFeedbacks} className='feedback-button'>Clear Feedbacks</button>
-      </div>
-    </div>
+
+        <div className="input-box">
+          <textarea name="message" placeholder='Enter your message' required className='field message'></textarea>
+        </div>
+
+        <button type='submit'>Send Message</button>
+      </form>
+    </section>
   );
 };
 
-export default FeedbackComponent;
-
+export default Contact;
