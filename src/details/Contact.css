@@ -10,7 +10,7 @@
 }
 
 .contact h3 span{
-    color: rgb(0, 115, 255);
+    color: rgb(30, 82, 145);
     
 }
 .contact img{
@@ -23,6 +23,7 @@
     display: flex;
      align-items: center;
      justify-content: left;
+     margin-bottom: 100px;
 }
 
 .address-one h5, .address-two h5{
@@ -38,6 +39,9 @@
 }
 
 .contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
