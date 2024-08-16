@@ -129,8 +129,9 @@ hr{
 
   
 .image-container img{
-    width: 100%;
+    width: 220px;
     height: 250px;
+    border-radius: 8px;
 }
 
 .titles h2{

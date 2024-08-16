@@ -95,7 +95,7 @@ const Home = () => {
         <div className="two">
 
             <div className="image-container">
-                <img src="https://media.licdn.com/dms/image/D4D03AQHKieTe_SeVSw/profile-displayphoto-shrink_800_800/0/1699351850648?e=1723680000&v=beta&t=diiHM_4CEEK-1bbw_SJmAci0TCqAlbhhun8XvtvpQ-k" alt="" />
+                <img src="/image/profile.jpeg" alt="" />
             </div>
 
             <div className="profile-details">
