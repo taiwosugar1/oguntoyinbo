@@ -26,7 +26,6 @@ const AnimationRotate = () => {
         {images.map((image, index) => (
           <div key={image.id} className="item" style={{ "--position": index + 1 }}>
             <img src={image.src} alt={image.alt}  onClick={handleNavigate} />
-            <h6><i>Fullstack Developer </i></h6>
           </div>
         ))}
       </div>

@@ -56,7 +56,7 @@ const Home = () => {
       <div className="container">
         {/* Sidebar and Toggle Icon */}
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-          <div className={`toggle-icon ${isOpen ? 'x' : ''}`} onClick={handleToggle}>
+          <div className="toggle-icon" onClick={handleToggle}>
             {isOpen ? '✖' : <FaAlignLeft />} 
           </div>
 
@@ -66,27 +66,28 @@ const Home = () => {
                 <IoPersonSharp className='icon' />
                 <h3>ABOUT</h3>
               </div>
-              <hr />
+              
               <div onClick={() => handleTabChange('contact')}>
                 <FaAt className='icon' />
                 <h3>CONTACT</h3>
               </div>
-              <hr />
+            
               <div onClick={() => handleTabChange('resume')}>
                 <BiSolidMessageSquareDetail className='icon' />
                 <h3>RESUME</h3>
               </div>
-              <hr />
+             
               <div onClick={() => handleTabChange('works')}>
                 <BsPersonWorkspace className='icon' />
                 <h3>WORKS</h3>
               </div>
-              <hr />
+              
               <div onClick={() => handleTabChange('blog')}>
                 <RiMessage2Fill className='icon' />
                 <h3>BLOG</h3>
               </div>
             </div>
+           
           )}
         </div>
 
@@ -118,11 +119,11 @@ const Home = () => {
         {/* Tab Content Section */}
         <div className="three">
           <div className="three-container">
-            <div id="about">{activeTab === 'about' && <About />}</div>
-            <div id="contact">{activeTab === 'contact' && <Contact />}</div>
-            <div id="resume">{activeTab === 'resume' && <Resume />}</div>
-            <div id="works">{activeTab === 'works' && <Works />}</div>
-            <div id="blog">{activeTab === 'blog' && <Blog />}</div>
+            <div id="about" className='active-tab'>{activeTab === 'about' && <About />}</div>
+            <div id="contact" className='active-tab'>{activeTab === 'contact' && <Contact />}</div>
+            <div id="resume" className='active-tab'>{activeTab === 'resume' && <Resume />}</div>
+            <div id="works" className='active-tab'>{activeTab === 'works' && <Works />}</div>
+            <div id="blog" className='active-tab'>{activeTab === 'blog' && <Blog />}</div>
           </div>
         </div>
       </div>

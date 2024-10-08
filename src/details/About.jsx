@@ -12,29 +12,26 @@ const About = () => {
   return (
     <div className='about'>
 
-    <div>
+  
       <div  className='about-body'>
       <h3><span>A</span>BOUT ME</h3>
-     
       <hr />
-      
-
       <AnimationRotate/>
-      {/* <LogoAnimation/> */}
-      <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional.
+      
+      <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional. <br /><br />
 
-Due to my strong interpersonal abilities, I am able to get the cooperation of senior management, clients, and members of other departments.
+      Due to my strong interpersonal abilities, I am able to get the cooperation of senior management, clients, and members of other departments. <br /><br />
 
-I am a diligent organizer who actively pursues quality standards and continual development. I constantly create and uphold a good environment that inspires others and fosters a sense of teamwork.
+      I am a diligent organizer who actively pursues quality standards and continual development. I constantly create and uphold a good environment that inspires others and fosters a sense of teamwork. <br /><br />
 
-I have a strong mix of business and technical abilities, and in all of the IT Products and Projects I have managed and am now managing, my technical background and love for data has inspired my drive to understand new trends in IT such as data analytics/ data science, which is a plus to career projection.</p>
-</div>
-<div className="about-body-two">
-<h3><span>M</span>Y SERVICES</h3>
-<div className="my-services">
-  <div className="service">
-  <TfiWorld className='web'/>
-  <h2>Web Development</h2>
+      I have a strong mix of business and technical abilities, and in all of the IT Products and Projects I have managed and am now managing, my technical background and love for technology has inspired my drive to understand new trends in IT such as Fullsatack Development, which is a plus to career projection.</p>
+    </div>
+       <div className="about-body-two">
+         <h3><span>M</span>Y SERVICES</h3>
+         <div className="my-services">
+            <div className="service">
+               <TfiWorld className='web'/>
+               <h2>Web Development</h2>
        <p className='p'>Every customer wants a seamless digital experience with personalized service. Digital presence is handy for customer satisfaction</p>
   </div>
   <div className="service">
@@ -85,7 +82,7 @@ I have a strong mix of business and technical abilities, and in all of the IT Pr
         </div>
       </div>
 
-    </div>
+    
     </div>
   )
 }

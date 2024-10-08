@@ -3,15 +3,14 @@
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   margin: 10px;
    width: 100%;
 }
 
 .work-done-box {
-    width: 100%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
    align-items: center;
    justify-content: center;
 
@@ -27,7 +26,6 @@
 }
 .work-done-box .work-done  img {
     width: 100%;
-    
  }
  .work-done-box .work-done  img:hover{
     transform: scale(1.05);

@@ -31,7 +31,9 @@ export const Works = () => {
           return(
               <>
                   <div className="work-done" key={id}>
-                      <Link to={weblink}><img src={image} alt="" /></Link>
+                      <Link to={weblink}>
+                        <img src={image} alt="" />
+                      </Link>
                     <h3>{name}</h3>
                     <p>{profession}</p>
                   </div>
@@ -104,6 +106,14 @@ export const Categories = [
   category: "web",
   weblink:"https://product-kappa-beryl.vercel.app/"
 },
+{
+  id: 13,
+  name: "Immigration Website",
+  image: 'image/web8-image.png',
+  profession: " Personal Website",
+  category: "web",
+  weblink:"https://diamond-visa.vercel.app/"
+},
 
 // {
 //   id: 7,
@@ -153,22 +163,7 @@ export const Categories = [
 //   category: "print",
 //   weblink:"https://www.instagram.com/p/Clbw6WfsYJ9/"
 // },
-{
-  id: 13,
-  name: "Immigration Website",
-  image: 'image/web8-image.png',
-  profession: " Personal Website",
-  category: "web",
-  weblink:"https://diamond-visa.vercel.app/"
-},
-{ 
-id: 14,
-name: "Printing Website",
-image: 'image/web9-image.png',
-profession: " Personal Website",
-category: "web",
-weblink:"https://printing-web-neon.vercel.app/"
-},
+
 // {
 //   id: 11,
 //   name: "Music Web Application",

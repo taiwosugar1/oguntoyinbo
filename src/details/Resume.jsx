@@ -118,16 +118,8 @@ export const Resume = () => {
         <h2><TbTools className='icon'/> TOOLS </h2>
         <hr style={{width:"100%", height:"0.5px", background:"grey"}}/>
         <div className="rounded">
-        <ResumingToolsPercentage/>
-            {/* <div className="round"><h5>Javascript</h5></div>
-           <div className="round"><h5>Reactjs</h5></div>
-            <div className="round"><h5>Nodejs</h5></div>
-           <div className="round"><h5>Expressjs</h5></div>
-            <div className="round"><h5>MongoDB</h5></div>
-           <div className="round"><h5>HTML</h5></div>
-            <div className="round"><h5>CSS</h5></div>
-           <div className="round"><h5>Tailwind CSS<br />Bootstrap</h5></div> */}
-           </div>
+          <ResumingToolsPercentage/>
+        </div>
           
         </div>
        

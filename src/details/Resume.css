@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .resume h3 span{
@@ -15,7 +16,7 @@
 }
 .resume p{
     color: rgb(162, 161, 161);
-    margin-top: -20px;
+    margin-top: -5px;
     font-size: 14px;
 }
 
@@ -23,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 }
 .resume .resume-experience .experience{
     display: flex;
@@ -31,17 +32,22 @@
     justify-content: center;
     flex-direction: column;
     padding: 10px;
-    width: 50%;
-    height: 400px;
+    width: 45%;
+    margin: 10px;
+    height: 350px;
     border: 0.5px solid rgb(235, 235, 235);
 }
 .resume .experience h3{
 text-align: left;
+font-size: 16px;
+font-weight: 500;
 }
 .resume .experience h4{
     color: grey;
     text-align: left;
-    width: 250px;
+    font-weight: 440;
+    width: 85%;
+    font-size: 14px;
 }
 .resume .experience .image{
     display: flex;
@@ -55,6 +61,7 @@ text-align: left;
 .date{
     color: royalblue;
     padding: 3px 10px;
+    font-size: 12px;
     border: 0.5px solid royalblue;
 }
 
@@ -63,6 +70,7 @@ text-align: left;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .skill .skill-list{
@@ -70,6 +78,7 @@ text-align: left;
     align-items: center;
     justify-content: center;
     margin-top: -120px;
+    width: 100%;
 }
 .skill .skill-list .skill-list-one{
     display: flex;
@@ -128,22 +137,9 @@ text-align: left;
    font-weight: 700;
 }
 .rounded {
-   display: grid;
-   grid-template-columns: auto auto;
- 
+
 }
-.rounded .round{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    border: 3px solid teaL;
-    border-radius: 50%; 
-    margin: 5px 10px;
-    padding: 10px;  
-  
-}
+
 .rank-h3, .rank-h2{
     margin-left: 20px;
 }
@@ -191,13 +187,9 @@ text-align: left;
         line-height: 20px;
         flex-wrap: wrap;
     }
-    .resume .resume-experience{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
 
+    .resume .resume-experience .experience{
+        width: 80%;
     }
     .resume hr{
         width: 80%;

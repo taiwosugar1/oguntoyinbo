@@ -27,7 +27,6 @@ export const Contact = () => {
         <div className="contact-form">
            <br />
          <Feedback/>
-
          </div>
       </div> 
     </div>
