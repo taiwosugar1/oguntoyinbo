@@ -8,7 +8,7 @@ export const Blog = () => {
 	<div className="blog">
        <h3><span style={{color:'royalblue'}}>B</span>log</h3>
        <hr />
-    <div className='button'>
+    {/* <div className='button'>
         <button className="animated-button">
 			<div className="hidden-layer">
 				<div className="line"></div>
@@ -17,7 +17,7 @@ export const Blog = () => {
 			<div className="layer"></div>
 			<span className="text">Learn More</span>
 		</button>
-    </div>
+    </div> */}
 
 	<div className="blog-container">
          <div className="blog-box">

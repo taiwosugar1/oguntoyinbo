@@ -12,35 +12,30 @@ export const Works = () => {
      setData(result)
   }
   return (
-   <div className='work-container'>   
+   <div className='work-container'> 
+   <h3><span style={{color:'royalblue'}}>W</span>orks</h3>   
     <nav className='nav'>
-    <h3><span style={{color:'royalblue'}}>W</span>orks</h3> 
+    
     <ul>
       <li style={{color:"royablue", fontWeight:"600"}}onClick={()=>setData(Categories)}>All</li>
       <li onClick={()=>filterResult('web')}> Web development</li>
       <li onClick={()=>filterResult('print')}>Printing Production</li>
     </ul>
 </nav>
-<hr />
+<br />
 
 <div className="work-done-box">
-
-
 {data.map((values)=>{
           const {id, name, image, weblink, profession}=values;
-
         
           return(
               <>
-               <div className='.work-done-box' key={id}>
-
-                  <div className="work-done">
-                    <div className="work" key={id}><Link to={weblink}><img src={image} alt="" /></Link>
+                  <div className="work-done" key={id}>
+                      <Link to={weblink}><img src={image} alt="" /></Link>
                     <h3>{name}</h3>
                     <p>{profession}</p>
                   </div>
-             </div>
-           </div>
+          
               </>
           )
       })}
@@ -54,11 +49,11 @@ export const Works = () => {
 export const Categories = [
   {
     id: 1,
-    name: "E-commerce Sell App",
-    image: 'image/web7-image.png',
+    name: "Printing Website",
+    image: 'image/web10.png',
     profession: "E-commerce App",
     category: "web",
-    weblink:"https://product-kappa-beryl.vercel.app/"
+    weblink:"https://multibrandprints.com.ng/"
   },
   
   {
@@ -101,55 +96,63 @@ export const Categories = [
   category: "web",
   weblink:"https://music-eight-rose.vercel.app/"
 },
+{
+  id: 15,
+  name: "E-commerce Sell App",
+  image: 'image/web7-image.png',
+  profession: "E-commerce App",
+  category: "web",
+  weblink:"https://product-kappa-beryl.vercel.app/"
+},
 
-{
-  id: 7,
-  name: "Company / Product Branding",
-  image: 'image/metaphor.png',
-  profession: "Signage Branding",
-  category: "print",
-  weblink:"https://www.instagram.com/p/Cw9kaeiMzha/"
-},
-{
-  id: 8,
-  name: "Company Branding / Decoration",
-  image: 'image/signage.png',
-  profession: "Company Branding",
-  category: "print",
-  weblink:"https://www.instagram.com/p/CwnJNQesPXT/"
-},
-{
-  id: 9,
-  name: "Book Printing / Publication",
-  image: 'image/book2.png',
-  profession: "Book Publication",
-  category: "print",
-  weblink:"https://www.instagram.com/p/CwcWf6bAeEw/"
-},
-{
-  id: 10,
-  name: "Product Branding Box",
-  image: 'image/pizza.png',
-  profession: "Box Printing / Branding",
-  category: "print",
-  weblink:"https://www.instagram.com/p/C06cDWxM0IY/"
-},
-{
-  id: 11,
-  name: "Carrier Bag Production",
-  image: 'image/bag-image.png',
-  profession: "Bag Printing ",
-  category: "print",
-  weblink:"https://www.instagram.com/p/C7Yjbb2MDr0/"
-},
-{
-  id: 12,
-  name: "Diary Publication",
-  image: 'image/book-image.png',
-  profession: "Printing Production",
-  category: "print",
-  weblink:"https://www.instagram.com/p/Clbw6WfsYJ9/"
-},
+// {
+//   id: 7,
+//   name: "Company / Product Branding",
+//   image: 'image/metaphor.png',
+//   profession: "Signage Branding",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/Cw9kaeiMzha/"
+// },
+// {
+//   id: 8,
+//   name: "Company Branding / Decoration",
+//   image: 'image/signage.png',
+//   profession: "Company Branding",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/CwnJNQesPXT/"
+// },
+// {
+//   id: 9,
+//   name: "Book Printing / Publication",
+//   image: 'image/book2.png',
+//   profession: "Book Publication",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/CwcWf6bAeEw/"
+// },
+// {
+//   id: 10,
+//   name: "Product Branding Box",
+//   image: 'image/pizza.png',
+//   profession: "Box Printing / Branding",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/C06cDWxM0IY/"
+// },
+// {
+//   id: 11,
+//   name: "Carrier Bag Production",
+//   image: 'image/bag-image.png',
+//   profession: "Bag Printing ",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/C7Yjbb2MDr0/"
+// },
+// {
+//   id: 12,
+//   name: "Diary Publication",
+//   image: 'image/book-image.png',
+//   profession: "Printing Production",
+//   category: "print",
+//   weblink:"https://www.instagram.com/p/Clbw6WfsYJ9/"
+// },
 {
   id: 13,
   name: "Immigration Website",

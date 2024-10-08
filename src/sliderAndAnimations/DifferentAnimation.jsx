@@ -8,6 +8,8 @@ import Sliders from '../sliderAndAnimations/Sliders';
 import ImageSlider2 from '../sliderAndAnimations/ImageSlider2'
 import Feedback from '../details/Feedback'
 import Booking from './Booking'
+import Table from '../details/Table'
+import IsOpenComponent from '../details/IsOpenComponent'
 
 const DifferentAnimation = () => {
   return (
@@ -31,6 +33,8 @@ const DifferentAnimation = () => {
         <Feedback/>
         <br /><hr /><br />
         <Booking/>
+        <Table/>
+        <IsOpenComponent/>
         </div>
   )
 }

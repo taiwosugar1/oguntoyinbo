@@ -1,0 +1,38 @@
+.IsOpenComponent{
+    width: 100%;
+    margin: 50px 0;
+}
+.make-it-open{
+    display: none;
+}
+.IsOpenComponent button {
+    display: none;
+}
+.make-it-open ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .make-it-open{
+        display: block;
+    }
+    .IsOpenComponent button {
+        display: block;
+    }
+    .make-it-open{
+        display: none;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    .make-it-open ul{
+       display: block;
+
+    }
+    .make-it-open.active{
+        display: flex;
+        position: relative;
+    }
+}
