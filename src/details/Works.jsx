@@ -31,11 +31,12 @@ export const Works = () => {
           return(
               <>
                   <div className="work-done" key={id}>
-                      <Link to={weblink}>
-                        <img src={image} alt="" />
-                      </Link>
+                    <img src={image} alt="" />
                     <h3>{name}</h3>
                     <p>{profession}</p>
+                    <Link to={weblink} className='view-web'>
+                       View
+                    </Link>
                   </div>
           
               </>
@@ -51,15 +52,24 @@ export const Works = () => {
 export const Categories = [
   {
     id: 1,
-    name: "Printing Website",
+    name: "https://multibrandprints.com.ng",
     image: 'image/web10.png',
-    profession: "E-commerce App",
+    profession: "Printing Website",
     category: "web",
     weblink:"https://multibrandprints.com.ng/"
   },
+  {
+    id: 2,
+    name: "Immigration Website",
+    image: 'image/web8-image.png',
+    profession: " Personal Website",
+    category: "web",
+    weblink:"https://diamond-visa.vercel.app/"
+  },
+  
   
   {
-  id: 2,
+  id: 13,
   name: "E-commerce Web Development",
   image: 'image/web1-image.png',
   profession: "Web development",

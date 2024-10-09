@@ -9,6 +9,7 @@ import { Works } from './details/Works';
 import DifferentAnimation from './sliderAndAnimations/DifferentAnimation';
 import { FaLongArrowAltUp } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
+import BlogDetails from './details/BlogDetails';
 function App() {
   
   const [showScrollButton, setShowScrollButton] = useState(false); 
@@ -45,9 +46,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/> 
         <Route path="/about" element={<About/>}/> 
-        <Route path="/blog" element={<Blog/>}/> 
         <Route path="/contact" element={<Contact/>}/> 
         <Route path="/works" element={<Works/>}/> 
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="/different-animation" element={<div>Animations</div>} />
         <Route path="/different-animation" element={<DifferentAnimation/>}/> 
       </Routes>
     </BrowserRouter>

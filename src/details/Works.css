@@ -13,7 +13,7 @@
     gap: 20px;
    align-items: center;
    justify-content: center;
-
+    
 }
 
 .work-done-box .work-done {
@@ -23,6 +23,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   position: relative;
 }
 .work-done-box .work-done  img {
     width: 100%;
@@ -47,6 +48,22 @@
     font-size: 12px;
     text-align: center;
   }
+
+  .view-web{
+   padding: 5px 10px;
+   border-radius: 5px;
+   color: white;
+   background: teal;
+   position: absolute;
+   text-decoration: none;
+   bottom: 3px;
+   right: 3px;
+ }
+
+ .view-web:hover{
+   background: rgb(3, 97, 97);
+ }
+
  .nav{
     display: flex;
     justify-content: space-between;
@@ -72,8 +89,3 @@
     background: teal;
     font-size: 14px;
  }
-
- 
-
- /* ----------tab screen --------- */
- 
