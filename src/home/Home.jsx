@@ -23,15 +23,15 @@ const Home = () => {
   const handleTabChange = (tab) => {
     setActiveTab(tab);
     
-    // Scroll to the relevant section
-    const section = document.getElementById(tab);
-    if (section) {
-      const topOffset = section.getBoundingClientRect().top + window.pageYOffset - 100; // Adjusted offset
-      window.scrollTo({
-        top: topOffset,
-        behavior: 'smooth'
-      });
-    }
+    // // Scroll to the relevant section
+    // const section = document.getElementById(tab);
+    // if (section) {
+    //   const topOffset = section.getBoundingClientRect().top + window.pageYOffset - 100; // Adjusted offset
+    //   window.scrollTo({
+    //     top: topOffset,
+    //     behavior: 'smooth'
+    //   });
+    // }
 
     // Close the sidebar after clicking an item
     setIsOpen(false);
