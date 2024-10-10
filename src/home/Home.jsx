@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import "./Home.css";
-import { FaAt } from "react-icons/fa";
-import { RiMessage2Fill } from "react-icons/ri";
-import { BiSolidMessageSquareDetail } from "react-icons/bi";
-import { IoPersonSharp } from "react-icons/io5";
-import { BsPersonWorkspace } from "react-icons/bs";
-import { FaAlignLeft } from "react-icons/fa6"; // Open/close icon
+import './Home.css';
+import { FaAt } from 'react-icons/fa';
+import { RiMessage2Fill } from 'react-icons/ri';
+import { BiSolidMessageSquareDetail } from 'react-icons/bi';
+import { IoPersonSharp } from 'react-icons/io5';
+import { BsPersonWorkspace } from 'react-icons/bs';
+import { FaAlignLeft } from 'react-icons/fa6'; // Open/close icon
 import About from '../details/About';
 import { Contact } from '../details/Contact';
 import { Resume } from '../details/Resume';
 import { Blog } from '../details/Blog';
 import { Works } from '../details/Works';
-import { MdPerson } from "react-icons/md";
+import { MdPerson } from 'react-icons/md';
 import SocialAnimate from '../sliderAndAnimations/SocialAnimate';
 
 const Home = () => {
@@ -30,7 +30,7 @@ const Home = () => {
   // Handle tab switch logic
   const handleTabChange = (tab) => {
     setActiveTab(tab);
-    
+
     // Close the sidebar after clicking an item
     setIsOpen(false);
 
@@ -48,7 +48,7 @@ const Home = () => {
     const intervalId = setInterval(() => {
       setTitleIndex((prevIndex) => (prevIndex + 1) % 3);
     }, 5000);
-  
+
     return () => clearInterval(intervalId);
   }, []);
 
@@ -58,8 +58,11 @@ const Home = () => {
         {/* Sidebar and Toggle Icon */}
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
           <div className="toggle-icon" onClick={handleToggle}>
-            {isOpen ? '✖' : <FaAlignLeft />} 
+            {isOpen ? '✖' : <FaAlignLeft />}
           </div>
+
+          {/* Blinking arrow pointing to toggle icon */}
+          {!isOpen && <div className="arrow"></div>}
 
           {isOpen && (
             <div className="box2">
@@ -67,22 +70,22 @@ const Home = () => {
                 <IoPersonSharp className='icon' />
                 <h3>ABOUT</h3>
               </div>
-              
+
               <div onClick={() => handleTabChange('contact')}>
                 <FaAt className='icon' />
                 <h3>CONTACT</h3>
               </div>
-            
+
               <div onClick={() => handleTabChange('resume')}>
                 <BiSolidMessageSquareDetail className='icon' />
                 <h3>RESUME</h3>
               </div>
-             
+
               <div onClick={() => handleTabChange('works')}>
                 <BsPersonWorkspace className='icon' />
                 <h3>WORKS</h3>
               </div>
-              
+
               <div onClick={() => handleTabChange('blog')}>
                 <RiMessage2Fill className='icon' />
                 <h3>BLOG</h3>
