@@ -19,22 +19,23 @@ const Home = () => {
   const [titleIndex, setTitleIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false); // For the sidebar
 
+  // Scroll to the top when switching tabs
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 400,
+      behavior: 'smooth', // Smooth scroll effect
+    });
+  };
+
   // Handle tab switch logic
   const handleTabChange = (tab) => {
     setActiveTab(tab);
     
-    // Scroll to the relevant section
-    const section = document.getElementById(tab);
-    if (section) {
-      const topOffset = section.getBoundingClientRect().top + window.pageYOffset - 100; // Adjusted offset
-      window.scrollTo({
-        top: topOffset,
-        behavior: 'smooth'
-      });
-    }
-
     // Close the sidebar after clicking an item
     setIsOpen(false);
+
+    // Scroll to the top when a tab is selected
+    scrollToTop();
   };
 
   // Toggle sidebar open/close
@@ -87,7 +88,6 @@ const Home = () => {
                 <h3>BLOG</h3>
               </div>
             </div>
-           
           )}
         </div>
 
