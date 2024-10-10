@@ -10,16 +10,7 @@ import DifferentAnimation from './sliderAndAnimations/DifferentAnimation';
 import { FaLongArrowAltUp } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import BlogDetails from './details/BlogDetails';
-
-const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the page when the route changes
-  }, [pathname]);
-
-  return null;
-};
+import ScrollToTop from './details/ScrollToTop ';
 
 const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false); 
@@ -47,8 +38,8 @@ const App = () => {
   };
   return (
     <BrowserRouter>
-
-     <ScrollToTop /> {/* Ensure pages start at the top when navigating */}
+      {/* Ensure pages start at the top when navigating */}
+     <ScrollToTop /> 
 
      {/* Scroll to Top Button */}
      {showScrollButton && (

@@ -74,6 +74,14 @@ export const Categories = [
     category: "web",
     weblink:"https://adcoreconsulting.vercel.app/"
   },
+  {
+    id: 4,
+    name: "https://printhub.com.ng",
+    image: 'image/printhub.png',
+    profession: " Business Website",
+    category: "web",
+    weblink:"https://printhub-omega.vercel.app/"
+  },
   
   
   {
@@ -93,7 +101,7 @@ export const Categories = [
  weblink:"https://my-react-beta.vercel.app/"
 },
 {
-  id: 4,
+  id: 15,
   name: "Professional Website",
   image: 'image/web3-image.png',
   profession: "Web development",
