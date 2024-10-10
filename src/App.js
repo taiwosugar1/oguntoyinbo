@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Home from './home/Home';
 import About from './details/About';
@@ -10,8 +10,18 @@ import DifferentAnimation from './sliderAndAnimations/DifferentAnimation';
 import { FaLongArrowAltUp } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import BlogDetails from './details/BlogDetails';
-function App() {
-  
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the route changes
+  }, [pathname]);
+
+  return null;
+};
+
+const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false); 
 
   useEffect(() => {
@@ -37,6 +47,9 @@ function App() {
   };
   return (
     <BrowserRouter>
+
+     <ScrollToTop /> {/* Ensure pages start at the top when navigating */}
+
      {/* Scroll to Top Button */}
      {showScrollButton && (
             <button className="scroll-to-top" onClick={scrollToTop}>

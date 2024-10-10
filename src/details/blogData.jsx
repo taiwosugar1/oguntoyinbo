@@ -4,7 +4,8 @@ export const blogPosts = [
       image: "/image/web9.png",
       title: 'My Journey as a Full-Stack Developer',
       summary: 'From building simple projects to leading a team of developers at Multibrand Digital Services, I share my journey in the tech world.',
-      content: 'In this post, I describe how I started as a web developer, learning the basics of HTML, CSS, and JavaScript, before advancing to modern frameworks such as React and Node.js. Over the years, I worked on various projects, including e-commerce platforms and enterprise applications, eventually leading a development team at Multibrand Digital Services...'
+      content: 'In this post, I describe how I started as a web developer, learning the basics of HTML, CSS, and JavaScript, before advancing to modern frameworks such as React and Node.js. Over the years, I worked on various projects, including e-commerce platforms and enterprise applications, eventually leading a development team at Multibrand Digital Services...',
+      linkBlog:"https://multibrandprints.com.ng"
     },
     {
       id: 'ai-and-web',

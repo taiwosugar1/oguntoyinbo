@@ -66,6 +66,14 @@ export const Categories = [
     category: "web",
     weblink:"https://diamond-visa.vercel.app/"
   },
+  {
+    id: 3,
+    name: "https://adcoreconsulting.com.ng",
+    image: 'image/adcore.png',
+    profession: " Business Website",
+    category: "web",
+    weblink:"https://adcoreconsulting.vercel.app/"
+  },
   
   
   {
@@ -77,7 +85,7 @@ export const Categories = [
   weblink:"https://new-ecommerce-sooty.vercel.app//"
 },
 {
-  id: 3,
+  id: 14,
   name: "Social Media Application",
   image: 'image/web2-image.png',
   profession: "Web development",

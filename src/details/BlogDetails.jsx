@@ -18,6 +18,7 @@ const BlogDetails = () => {
       <p>{blog.content}</p>
       
           < GoBackButton/>
+          <Link to={blog.linkBlog}>visit- {blog.name}</Link>
     
     </div>
   );
