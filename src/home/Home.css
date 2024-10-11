@@ -227,6 +227,11 @@
         padding-bottom: 50px;
         background: rgb(9, 172, 162);
     }
+
+    .arrow{
+      border: solid #666;
+  border-width: 0 5px 5px 0;
+    }
       
     .box2{
         flex-direction: column;
@@ -248,7 +253,7 @@
         justify-content: center;
         width: 100%;
         margin: 0;
-        padding-top: 50px;
+        padding-top: 10px;
         height: auto;
     }
    

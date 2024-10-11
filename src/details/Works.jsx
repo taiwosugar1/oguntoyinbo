@@ -83,7 +83,23 @@ export const Categories = [
     weblink:"https://printhub-omega.vercel.app/"
   },
   
-  
+  {
+    id: 5,
+    name: "Company Website",
+    image: 'image/web4-image.png',
+    profession: "Web development",
+    category: "web",
+    weblink:"https://multibrand-digital.vercel.app/"
+  },
+  {
+    id: 6,
+    name: "Music Web Application",
+    image: 'image/web5-image.png',
+    profession: "Web Aoolications",
+    category: "web",
+    weblink:"https://music-eight-rose.vercel.app/"
+  },
+
   {
   id: 13,
   name: "E-commerce Web Development",
@@ -108,37 +124,14 @@ export const Categories = [
   category: "web",
   weblink:"https://my-css-layout-project.vercel.app/"
 },
+
 {
-  id: 5,
-  name: "Company Website",
-  image: 'image/web4-image.png',
-  profession: "Web development",
-  category: "web",
-  weblink:"https://multibrand-digital.vercel.app/"
-},
-{
-  id: 6,
-  name: "Music Web Application",
-  image: 'image/web5-image.png',
-  profession: "Web Aoolications",
-  category: "web",
-  weblink:"https://music-eight-rose.vercel.app/"
-},
-{
-  id: 15,
+  id: 16,
   name: "E-commerce Sell App",
   image: 'image/web7-image.png',
   profession: "E-commerce App",
   category: "web",
   weblink:"https://product-kappa-beryl.vercel.app/"
-},
-{
-  id: 13,
-  name: "Immigration Website",
-  image: 'image/web8-image.png',
-  profession: " Personal Website",
-  category: "web",
-  weblink:"https://diamond-visa.vercel.app/"
 },
 
 // {
