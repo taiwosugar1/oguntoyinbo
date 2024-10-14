@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import "./Works.css"
+import { FaLink } from 'react-icons/fa';
 
 
 export const Works = () => {
@@ -35,7 +36,7 @@ export const Works = () => {
                     <h3>{name}</h3>
                     <p>{profession}</p>
                     <Link to={weblink} className='view-web'>
-                       View
+                       View <FaLink />
                     </Link>
                   </div>
           
