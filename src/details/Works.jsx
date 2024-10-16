@@ -61,9 +61,9 @@ export const Categories = [
   },
   {
     id: 2,
-    name: "Immigration Website",
+    name: "https://diamondvisa.com",
     image: 'image/web8-image.png',
-    profession: " Personal Website",
+    profession: " Immigration Website",
     category: "web",
     weblink:"https://diamond-visa.vercel.app/"
   },
