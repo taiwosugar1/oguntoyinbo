@@ -86,6 +86,14 @@ export const Categories = [
   
   {
     id: 5,
+    name: "https://wellnessmartialart.com.ng",
+    image: 'image/web20.png',
+    profession: "Web development",
+    category: "web",
+    weblink:"https://wellnessmartialart.vercel.app/"
+  },
+  {
+    id: 6,
     name: "Company Website",
     image: 'image/web4-image.png',
     profession: "Web development",
@@ -93,7 +101,7 @@ export const Categories = [
     weblink:"https://multibrand-digital.vercel.app/"
   },
   {
-    id: 6,
+    id: 17,
     name: "Music Web Application",
     image: 'image/web5-image.png',
     profession: "Web Aoolications",
