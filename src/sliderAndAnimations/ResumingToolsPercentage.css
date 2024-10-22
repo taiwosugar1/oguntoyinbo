@@ -52,32 +52,32 @@
     stroke: #f47303;
 }
 .circle-box:nth-child(3) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 12.5em;
+    stroke-dashoffset: 11.5em;
     stroke: #f4039c;
 }
 .circle-box:nth-child(4) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 12.2em;
-    stroke: rgb(17, 173, 201);
+    stroke-dashoffset: 11.2em;
+    stroke: green;
 }
 .circle-box:nth-child(5) .circle-percentage svg circle:nth-child(2){
     stroke-dashoffset: 13em;
-    stroke: green;
+    stroke: yellow;
 }
 .circle-box:nth-child(6) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 12.7em;
+    stroke-dashoffset: 9.5em;
     stroke: #880759;
 }
 .circle-box:nth-child(7) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 10.5em;
+    stroke-dashoffset: 10em;
     stroke: #f4039c;
 }
 .circle-box:nth-child(8) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 10em;
-    stroke: #081f66;
+    stroke-dashoffset: 9.7em;
+    stroke: #086166;
 }
 .circle-box:nth-child(9) .circle-percentage svg circle:nth-child(2){
     stroke-dashoffset: 7em;
-    stroke: #efe52f;
+    stroke: blue;
 }
 .circle-text{
     margin-top: -10px;

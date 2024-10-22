@@ -43,7 +43,7 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>60 <span>%</span></h5>
+        <h5>70 <span>%</span></h5>
     </div>
   </div>
   <h6 className="circle-text">JAVASCRIPT</h6> 
@@ -58,7 +58,7 @@ const ResumingToolsPercentage = () => {
         <circle cx="40" cy="40" r="40"></circle>
       </svg>
       <div className="circle-number">
-          <h5>65 <span>%</span></h5>
+          <h5>75 <span>%</span></h5>
       </div>
     </div>
     <h6 className="circle-text">ReactJS</h6> 
@@ -74,7 +74,7 @@ const ResumingToolsPercentage = () => {
         <circle cx="40" cy="40" r="40"></circle>
       </svg>
       <div className="circle-number">
-          <h5>55 <span>%</span></h5>
+          <h5>68 <span>%</span></h5>
       </div>
     </div>
     <h6 className="circle-text">Nodejs</h6> 
@@ -90,7 +90,7 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>60 <span>%</span></h5>
+        <h5>80 <span>%</span></h5>
     </div>
   </div>
   <h6 className="circle-text">ExpressJS</h6> 
