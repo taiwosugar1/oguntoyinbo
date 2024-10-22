@@ -56,7 +56,7 @@
     stroke: #f4039c;
 }
 .circle-box:nth-child(4) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 11.2em;
+    stroke-dashoffset: 10em;
     stroke: green;
 }
 .circle-box:nth-child(5) .circle-percentage svg circle:nth-child(2){
@@ -72,11 +72,11 @@
     stroke: #f4039c;
 }
 .circle-box:nth-child(8) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 9.7em;
+    stroke-dashoffset: 9.3em;
     stroke: #086166;
 }
 .circle-box:nth-child(9) .circle-percentage svg circle:nth-child(2){
-    stroke-dashoffset: 7em;
+    stroke-dashoffset: 8.5em;
     stroke: blue;
 }
 .circle-text{

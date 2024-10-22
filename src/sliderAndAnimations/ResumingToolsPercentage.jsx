@@ -137,7 +137,7 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>96 <span>%</span></h5>
+        <h5>84 <span>%</span></h5>
     </div>
   </div>
   <h6 className="circle-text">General Printing</h6> 
