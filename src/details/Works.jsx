@@ -94,17 +94,17 @@ export const Categories = [
   },
   {
     id: 6,
-    name: "Company Website",
-    image: 'image/web4-image.png',
-    profession: "Web development",
+    name: "https://tapecommunications.com",
+    image: 'image/tape.png',
+    profession: "Media Website",
     category: "web",
-    weblink:"https://multibrand-digital.vercel.app/"
+    weblink:"https://tapecom.vercel.app/"
   },
   {
     id: 17,
     name: "Music Web Application",
     image: 'image/web5-image.png',
-    profession: "Web Aoolications",
+    profession: "Web Applications",
     category: "web",
     weblink:"https://music-eight-rose.vercel.app/"
   },
@@ -123,7 +123,7 @@ export const Categories = [
   image: 'image/web2-image.png',
   profession: "Web development",
   category: "web",
- weblink:"https://my-react-beta.vercel.app/"
+ weblink:"https://myreact-social.vercel.app/"
 },
 {
   id: 15,
