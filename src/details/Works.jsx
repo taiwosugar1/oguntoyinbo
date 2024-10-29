@@ -101,6 +101,14 @@ export const Categories = [
     weblink:"https://tapecom.vercel.app/"
   },
   {
+    id: 7,
+    name: "https://bsolusholaenergy.ng",
+    image: 'image/web25.png',
+    profession: "Eletrical Website",
+    category: "web",
+    weblink:"https://bsolusholaenergy.ng"
+  },
+  {
     id: 17,
     name: "Music Web Application",
     image: 'image/web5-image.png',

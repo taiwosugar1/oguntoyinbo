@@ -11,7 +11,7 @@ const images = [
   { id: 6, src: "/image/web7-image.png", alt: "Image 6" },
   { id: 7, src: "/image/web8-image.png", alt: "Image 7" },
   { id: 8, src: "/image/web4-image.png", alt: "Image 8" },
-  { id: 9, src: "/image/web9.png", alt: "Image 9" },
+  { id: 9, src: "/image/web25.png", alt: "Image 9" },
   { id: 10, src: "/image/web20.png", alt: "Image 10" },
 ];
 
