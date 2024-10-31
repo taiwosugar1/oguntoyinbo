@@ -69,7 +69,7 @@ export const Categories = [
   },
   {
     id: 3,
-    name: "https://adcoreconsulting.com.ng",
+    name: "https://adcoreconsulting.com",
     image: 'image/adcore.png',
     profession: " Business Website",
     category: "web",
@@ -86,7 +86,7 @@ export const Categories = [
   
   {
     id: 5,
-    name: "https://wellnessmartialart.com.ng",
+    name: "https://wellnessmartialart.com",
     image: 'image/web20.png',
     profession: "Web development",
     category: "web",
@@ -98,7 +98,7 @@ export const Categories = [
     image: 'image/tape.png',
     profession: "Media Website",
     category: "web",
-    weblink:"https://tapecom.vercel.app/"
+    weblink:"https://www.tapecommunications.com/"
   },
   {
     id: 7,
