@@ -22,14 +22,14 @@ function SEOHelmet() {
       />
       <meta property="og:url" content="https://www.oguntoyinbo.com.ng" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.oguntoyinbo.com.ng/og-image.jpg" />
+      <meta property="og:image" content="https://www.oguntoyinbo.com.ng/image/profile.jpeg" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Oguntoyinbo Taiwo | Full-Stack Developer in Lagos, Nigeria" />
       <meta
         name="twitter:description"
         content="Top-rated Full-Stack Developer in Lagos, Nigeria. Specializing in web development, mobile apps, and tech solutions to elevate your business."
       />
-      <meta name="twitter:image" content="https://www.oguntoyinbo.com.ng/twitter-image.jpg" />
+      <meta name="twitter:image" content="https://www.oguntoyinbo.com.ng/image/profile.jpeg" />
     </Helmet>
   );
 }
