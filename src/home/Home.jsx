@@ -13,6 +13,7 @@ import { Blog } from '../details/Blog';
 import { Works } from '../details/Works';
 import { MdPerson } from 'react-icons/md';
 import SocialAnimate from '../sliderAndAnimations/SocialAnimate';
+import SEOHelmet from '../details/SEOHelmet';
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState('about');
@@ -54,6 +55,7 @@ const Home = () => {
 
   return (
     <div className='home'>
+      <SEOHelmet/>
       <div className="container">
         {/* Sidebar and Toggle Icon */}
         <div className={`sidebar ${isOpen ? 'open' : ''}`}>
