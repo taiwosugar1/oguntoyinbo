@@ -10,7 +10,7 @@ function SEOHelmet() {
       />
       <meta
         name="keywords"
-        content="Oguntoyinbo Taiwo, Full-Stack Developer, Developer in Lagos, Best Developer in Lagos, Best Developer in Nigeria, Web Developer Lagos, Mobile App Developer, Lagos Software Engineer, React Developer Nigeria, Node.js Developer, JavaScript Developer, Lagos Full Stack Developer, Software Development Nigeria, Frontend Developer, Backend Developer, Digital Solutions Lagos, E-commerce Developer, Website Developer Nigeria, Tech Expert Lagos, IT Solutions Lagos, Nigerian Web Developer"
+        content="Oguntoyinbo Taiwo, Oguntoyinbo Taiwo Kolawole, Full-Stack Developer, Developer in Lagos, Best Developer in Lagos, Best Developer in Nigeria, Web Developer Lagos, Mobile App Developer, Lagos Software Engineer, React Developer Nigeria, Node.js Developer, JavaScript Developer, Lagos Full Stack Developer, Software Development Nigeria, Frontend Developer, Backend Developer, Digital Solutions Lagos, E-commerce Developer, Website Developer Nigeria, Tech Expert Lagos, IT Solutions Lagos, Nigerian Web Developer, Reactjs developer, firebase developer, nigeria developer, website developer website developer in lagos"
       />
       <meta name="author" content="Oguntoyinbo Taiwo" />
       <meta name="robots" content="index, follow" />
