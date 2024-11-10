@@ -11,6 +11,7 @@ import { FaLongArrowAltUp } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import BlogDetails from './details/BlogDetails';
 import ScrollToTop from './details/ScrollToTop ';
+import OnlineStatus from './details/OnlineStatus';
 
 const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false); 
@@ -40,6 +41,7 @@ const App = () => {
     <BrowserRouter>
       {/* Ensure pages start at the top when navigating */}
      <ScrollToTop /> 
+     <OnlineStatus/>
 
      {/* Scroll to Top Button */}
      {showScrollButton && (
