@@ -1,32 +1,52 @@
 import React, { useState, useEffect } from 'react';
 
 const OnlineStatus = () => {
-  // Track the online status of the app
   const [isOnline, setIsOnline] = useState(navigator.onLine);
-
+  const [showOnlineMessage, setShowOnlineMessage] = useState(isOnline);
+  
   useEffect(() => {
-    // Event listeners to update the online status
-    const handleOnline = () => setIsOnline(true);
-    const handleOffline = () => setIsOnline(false);
+    let timer;
+
+    const handleOnline = () => {
+      setIsOnline(true);
+      setShowOnlineMessage(true);
+
+      // Clear any previous timer and set a new one to hide the message after 5 seconds
+      clearTimeout(timer);
+      timer = setTimeout(() => setShowOnlineMessage(false), 5000);
+    };
+
+    const handleOffline = () => {
+      setIsOnline(false);
+      setShowOnlineMessage(false); // Ensure no online message shows when offline
+      clearTimeout(timer); // Clear timer when offline
+    };
 
     window.addEventListener('online', handleOnline);
     window.addEventListener('offline', handleOffline);
 
-    // Clean up event listeners when component unmounts
+    // Check connection on component mount
+    if (navigator.onLine) {
+      handleOnline();
+    } else {
+      handleOffline();
+    }
+
     return () => {
       window.removeEventListener('online', handleOnline);
       window.removeEventListener('offline', handleOffline);
+      clearTimeout(timer); // Clear timer on unmount
     };
   }, []);
 
   return (
     <div style={{
-      padding: '10px', 
       textAlign: 'center',
-      color: isOnline ? 'green' : 'red',
-      fontWeight: 'bold'
+      fontWeight: 'bold',
+      color: isOnline ? 'green' : 'red'
     }}>
-      {isOnline ? 'You are online' : 'You are offline'}
+      {isOnline && showOnlineMessage && 'You are online'}
+      {!isOnline && 'You are offline'}
     </div>
   );
 };
