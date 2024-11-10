@@ -54,7 +54,6 @@ const App = () => {
         <Route path="/works" element={<Works/>}/> 
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
-        <Route path="/different-animation" element={<div>Animations</div>} />
         <Route path="/different-animation" element={<DifferentAnimation/>}/> 
       </Routes>
     </BrowserRouter>

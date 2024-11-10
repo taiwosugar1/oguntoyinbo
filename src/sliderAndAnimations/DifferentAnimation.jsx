@@ -10,6 +10,7 @@ import Feedback from '../details/Feedback'
 import Booking from './Booking'
 import Table from '../details/Table'
 import IsOpenComponent from '../details/IsOpenComponent'
+import Loader from '../details/Loader'
 
 const DifferentAnimation = () => {
   return (
@@ -18,6 +19,11 @@ const DifferentAnimation = () => {
         <div><Link to={"/"}><button style={{padding:"10px", color:"red"}}>Go back</button></Link></div>
         <br /><hr /><br />
         <AnimationRotate/>
+        <br /><hr /><br />
+
+        Door Loader
+        <br />
+        <Loader/>
         <br /><hr /><br />
         <LogoAnimation/>
         <br /><hr /><br />
