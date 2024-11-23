@@ -75,17 +75,9 @@ export const Categories = [
     category: "web",
     weblink:"https://adcoreconsulting.vercel.app/"
   },
-  {
-    id: 4,
-    name: "https://printhub.com.ng",
-    image: 'image/printhub.png',
-    profession: " Business Website",
-    category: "web",
-    weblink:"https://printhub-omega.vercel.app/"
-  },
   
   {
-    id: 5,
+    id: 4,
     name: "https://wellnessmartialart.com",
     image: 'image/web20.png',
     profession: "Web development",
@@ -93,7 +85,7 @@ export const Categories = [
     weblink:"https://wellnessmartialart.vercel.app/"
   },
   {
-    id: 6,
+    id: 5,
     name: "https://tapecommunications.com",
     image: 'image/tape.png',
     profession: "Media Website",
@@ -101,13 +93,32 @@ export const Categories = [
     weblink:"https://www.tapecommunications.com/"
   },
   {
-    id: 7,
+    id: 6,
     name: "https://bsolusholaenergy.ng",
     image: 'image/web25.png',
     profession: "Eletrical Website",
     category: "web",
     weblink:"https://bsolusholaenergy.ng"
   },
+  
+  {
+    id: 7,
+    name: "https://zeavix.com.",
+    image: 'image/zeavix.png',
+    profession: " Business Website",
+    category: "web",
+    weblink:"https://zeavix.vercel.app/"
+  },
+
+  {
+    id: 8,
+    name: "https://printhub.com.ng",
+    image: 'image/printhub.png',
+    profession: " Business Website",
+    category: "web",
+    weblink:"https://printhub-omega.vercel.app/"
+  },
+
   {
     id: 17,
     name: "Music Web Application",
