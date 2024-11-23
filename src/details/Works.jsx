@@ -107,7 +107,7 @@ export const Categories = [
     image: 'image/zeavix.png',
     profession: " Business Website",
     category: "web",
-    weblink:"https://zeavix.vercel.app/"
+    weblink:"https://www.zeavix.com/"
   },
 
   {
