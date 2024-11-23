@@ -31,6 +31,7 @@ export const Works = () => {
         
           return(
               <>
+              <Link to={weblink}>
                   <div className="work-done" key={id}>
                     <img src={image} alt="" />
                     <h3>{name}</h3>
@@ -39,6 +40,7 @@ export const Works = () => {
                        View <FaLink />
                     </Link>
                   </div>
+                  </Link>
           
               </>
           )

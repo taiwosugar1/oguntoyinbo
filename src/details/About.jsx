@@ -72,14 +72,27 @@ const About = () => {
          <h3><span>C</span>LIENTS</h3>
    <hr />
     
-         <div className="client-list">
-           <img src="image/exeter-image.png" alt="" />
-           <img src="image/unilag-image.png" alt="" />
-           <img src="image/metaphor-lab-image.png" alt="" />
-           <img src="image/enspace-image.png" alt="" />
-           <img src="image/gomycode-image.png" alt="" />
-           <img src="image/ai-africa-image.png" alt="" />
-        </div>
+   <div className="client-list">
+     <a href="https://www.exeter.ac.uk" target="_blank" rel="noopener noreferrer">
+       <img src="image/exeter-image.png" alt="Exeter" />
+     </a>
+     <a href="https://unilag.edu.ng" target="_blank" rel="noopener noreferrer">
+       <img src="image/unilag-image.png" alt="Unilag" />
+     </a>
+     <a href="https://www.metaphorlaboratory.com" target="_blank" rel="noopener noreferrer">
+       <img src="image/metaphor-lab-image.png" alt="Metaphor Lab" />
+     </a>
+    <a href="https://www.enspace.ng" target="_blank" rel="noopener noreferrer">
+       <img src="image/enspace-image.png" alt="Enspace" />
+    </a>
+    <a href="https://gomycode.com" target="_blank" rel="noopener noreferrer">
+       <img src="image/gomycode-image.png" alt="GoMyCode" />
+    </a>
+    <a href="https://www.aiafrica.org" target="_blank" rel="noopener noreferrer">
+       <img src="image/ai-africa-image.png" alt="AI Africa" />
+    </a>
+</div>
+
       </div>
 
     
