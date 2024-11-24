@@ -16,6 +16,7 @@ const About = () => {
       <div  className='about-body'>
       <h3><span>A</span>BOUT ME</h3>
       <hr />
+      
       <AnimationRotate/>
       
       <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional. <br /><br />
@@ -91,9 +92,9 @@ const About = () => {
     <a href="https://www.aiafrica.org" target="_blank" rel="noopener noreferrer">
        <img src="image/ai-africa-image.png" alt="AI Africa" />
     </a>
-</div>
-
-      </div>
+   </div>
+  
+     </div>
 
     
     </div>
