@@ -71,40 +71,6 @@ export const Categories = [
   },
   {
     id: 3,
-    name: "https://adcoreconsulting.com",
-    image: 'image/adcore.png',
-    profession: " Business Website",
-    category: "web",
-    weblink:"https://adcoreconsulting.vercel.app/"
-  },
-  
-  {
-    id: 4,
-    name: "https://wellnessmartialart.com",
-    image: 'image/web20.png',
-    profession: "Web development",
-    category: "web",
-    weblink:"https://wellnessmartialart.vercel.app/"
-  },
-  {
-    id: 5,
-    name: "https://tapecommunications.com",
-    image: 'image/tape.png',
-    profession: "Media Website",
-    category: "web",
-    weblink:"https://www.tapecommunications.com/"
-  },
-  {
-    id: 6,
-    name: "https://bsolusholaenergy.ng",
-    image: 'image/web25.png',
-    profession: "Eletrical Website",
-    category: "web",
-    weblink:"https://bsolusholaenergy.ng"
-  },
-  
-  {
-    id: 7,
     name: "https://zeavix.com.",
     image: 'image/zeavix.png',
     profession: " Business Website",
@@ -113,7 +79,51 @@ export const Categories = [
   },
 
   {
+    id: 4,
+    name: "https://adcoreconsulting.com",
+    image: 'image/adcore.png',
+    profession: " Business Website",
+    category: "web",
+    weblink:"https://adcoreconsulting.vercel.app/"
+  },
+
+  {
+    id: 5,
+    name: "https://wellnessmartialart.com",
+    image: 'image/web20.png',
+    profession: "Web development",
+    category: "web",
+    weblink:"https://wellnessmartialart.vercel.app/"
+  },
+
+  {
+    id: 6,
+    name: "https://church.com.",
+    image: 'image/church.png',
+    profession: " Church Website",
+    category: "web",
+    weblink:"https://churchit.vercel.app//"
+  },
+ 
+  {
+    id: 7,
+    name: "https://tapecommunications.com",
+    image: 'image/tape.png',
+    profession: "Media Website",
+    category: "web",
+    weblink:"https://www.tapecommunications.com/"
+  },
+  {
     id: 8,
+    name: "https://bsolusholaenergy.ng",
+    image: 'image/web25.png',
+    profession: "Eletrical Website",
+    category: "web",
+    weblink:"https://bsolusholaenergy.ng"
+  },
+
+  {
+    id: 9,
     name: "https://printhub.com.ng",
     image: 'image/printhub.png',
     profession: " Business Website",
