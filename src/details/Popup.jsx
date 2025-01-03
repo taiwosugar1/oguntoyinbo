@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
-import { CiLineHeight } from "react-icons/ci";
 
 const Popup = () => {
     const [showPopup, setShowPopup] = useState(false);
@@ -38,7 +37,7 @@ const Popup = () => {
                             Email Me
                         </button>
                         <a 
-                            href="https://wa.me/2348029299901" 
+                            href="https://wa.me/2348029299901?text=Hi%20Taiwo,%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20opportunities!" 
                             target="_blank" 
                             rel="noopener noreferrer" 
                             style={{ ...styles.button, textDecoration: "none" }}
@@ -80,11 +79,11 @@ const styles = {
     header: {
         fontSize: "1.8rem",
         marginBottom: "10px",
-        color:"teal"
+        color: "teal",
     },
     text: {
         fontSize: "1rem",
-        lineHeight:"1.6rem",
+        lineHeight: "1.6rem",
         marginBottom: "20px",
     },
     buttons: {
