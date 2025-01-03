@@ -11,9 +11,18 @@ import { FaLongArrowAltUp } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 import BlogDetails from './details/BlogDetails';
 import ScrollToTop from './details/ScrollToTop ';
+import Popup from './details/Popup';
+import "aos/dist/aos.css";
+import Aos from 'aos';
+
+
 
 const App = () => {
   const [showScrollButton, setShowScrollButton] = useState(false); 
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+}, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +49,7 @@ const App = () => {
     <BrowserRouter>
       {/* Ensure pages start at the top when navigating */}
      <ScrollToTop /> 
-
+     <Popup/>
      {/* Scroll to Top Button */}
      {showScrollButton && (
             <button className="scroll-to-top" onClick={scrollToTop}>
