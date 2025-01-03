@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
+import { CiLineHeight } from "react-icons/ci";
 
 const Popup = () => {
     const [showPopup, setShowPopup] = useState(false);
@@ -83,6 +84,7 @@ const styles = {
     },
     text: {
         fontSize: "1rem",
+        lineHeight:"1.6rem",
         marginBottom: "20px",
     },
     buttons: {
