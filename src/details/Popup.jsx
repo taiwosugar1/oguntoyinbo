@@ -15,7 +15,7 @@ const Popup = () => {
     const handleClose = () => setShowPopup(false);
 
     const sendEmail = () => {
-        window.location.href = "mailto:oguntoyinbo.taiwo@example.com?subject=Let's Connect&body=Hi Taiwo, I visited your portfolio and would love to discuss opportunities!";
+        window.location.href = "mailto:oguntoyinborichman@gmail.com?subject=Let's Connect&body=Hi Taiwo, I visited your portfolio and would love to discuss opportunities!";
     };
 
     return (
