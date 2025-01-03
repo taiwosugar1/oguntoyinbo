@@ -46,13 +46,13 @@ const About = () => {
     <FiPrinter className='web'/>
     <h2>IT Consulting</h2>
     <p>
-       Guiding the organization on everything from overall General Printing strategies such as type of technology and Quality control of all Productions etc.</p>
+       Guiding the organization on everything from overall General Technologies strategies such as type of technology and Quality control of all Productions etc.</p>
   </div>
   <div className="service">
   <FaBook className='web'/>
   <h2>General Printing</h2>
     <p>
-       Guiding the organization on everything from overall General Technology strategies such as type of technology and Quality control of all Productions etc.</p>
+       Guiding the organization on everything from overall General Printing strategies such as type of available Printing technologies and Quality control of all Productions etc.</p>
   </div>
   <div className="service">
   <FaBook className='web'/>
