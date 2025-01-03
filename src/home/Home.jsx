@@ -73,6 +73,11 @@ const Home = () => {
                 <h3>ABOUT</h3>
               </div>
 
+              <div onClick={() => handleTabChange('works')}>
+                <BsPersonWorkspace className='icon' />
+                <h3>WORKS</h3>
+              </div>
+
               <div onClick={() => handleTabChange('contact')}>
                 <FaAt className='icon' />
                 <h3>CONTACT</h3>
@@ -81,11 +86,6 @@ const Home = () => {
               <div onClick={() => handleTabChange('resume')}>
                 <BiSolidMessageSquareDetail className='icon' />
                 <h3>RESUME</h3>
-              </div>
-
-              <div onClick={() => handleTabChange('works')}>
-                <BsPersonWorkspace className='icon' />
-                <h3>WORKS</h3>
               </div>
 
               <div onClick={() => handleTabChange('blog')}>
