@@ -132,11 +132,11 @@ export const Categories = [
   },
   {
     id: 10,
-    name: "https://linkyoutube.com.",
+    name: "https://linkyoutube.com",
     image: 'image/y.png',
     profession: " Youtube Video Saver Website",
     category: "web",
-    weblink:"https://linkyoutube.vercel.app//"
+    weblink:"https://linkyoutube.vercel.app/"
   },
 
   {
