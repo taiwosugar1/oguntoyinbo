@@ -6,8 +6,8 @@
 }
 .banner .slider{
     position: absolute;
-    width: 170px;
-    height: 200px;
+    width: 120px;
+    height: 150px;
     top: 10%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
@@ -27,7 +27,7 @@
     inset: 0 0 0 0;
     transform:
      rotateY(calc( (var(--position) - 1 ) * (360 / var(--quantity)) * 1deg ))
-     translateZ(300px);
+     translateZ(230px);
 }
 .banner .slider .item img{
     width: 100%;
@@ -45,7 +45,7 @@
         position: absolute;
         width: 100px;
         height: 120px;
-        top: 20%;
+        top: 10%;
         left: calc(50% - 50px);
         transform-style: preserve-3d;
         transform: perspective(1000px);

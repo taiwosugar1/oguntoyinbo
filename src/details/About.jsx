@@ -12,12 +12,13 @@ const About = () => {
   return (
     <div className='about'>
 
-  
       <div  className='about-body'>
-      <h3><span>A</span>BOUT ME</h3>
-      <hr />
       
       <AnimationRotate/>
+      <hr />
+      <br />
+      <h3><span>A</span>BOUT ME</h3>
+      <br />
       
       <p className='about-paragraph'>I have experience in every stage of the product and project management life cycle and consider myself to be a committed, effective, and passionate professional. <br /><br />
 

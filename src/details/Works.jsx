@@ -14,7 +14,7 @@ export const Works = () => {
   }
   return (
    <div className='work-container'> 
-   <h3><span style={{color:'royalblue'}}>W</span>orks</h3>   
+   <h3><span style={{color:'royalblue'}}>P</span>rojects Completed</h3>   
     <nav className='nav'>
     
     <ul>

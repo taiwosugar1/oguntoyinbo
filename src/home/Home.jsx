@@ -75,7 +75,7 @@ const Home = () => {
 
               <div onClick={() => handleTabChange('works')}>
                 <BsPersonWorkspace className='icon' />
-                <h3>WORKS</h3>
+                <h3>PROJECTS</h3>
               </div>
 
               <div onClick={() => handleTabChange('contact')}>
