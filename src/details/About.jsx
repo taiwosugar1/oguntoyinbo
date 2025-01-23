@@ -16,7 +16,6 @@ const About = () => {
       
       <AnimationRotate/>
       <hr />
-      <br />
       <h3><span>A</span>BOUT ME</h3>
       <br />
       
