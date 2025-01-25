@@ -13,6 +13,7 @@ const images = [
   { id: 8, src: "/image/r8.png", alt: "Image 8", title: "Mongo DB" },
   { id: 9, src: "/image/r9.png", alt: "Image 9", title: "Node JS" },
   { id: 10, src: "/image/r10.png", alt: "Image 10", title: "Express JS" },
+  { id: 10, src: "/image/r12.png", alt: "Image 10", title: "TypeCript" },
 ];
 
 const AnimationRotate = () => {
