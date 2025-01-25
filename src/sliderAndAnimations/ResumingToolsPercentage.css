@@ -9,7 +9,7 @@
 .circle-box{
     background: white;
     width: 90px;
-    height: 130px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,6 @@
 }
 .circle-text{
     margin-top: -10px;
-  
 }
 
 .circle-box .circle-percentage .circle-number{
@@ -96,11 +95,15 @@
     color: black;
 }
 .circle-box .circle-percentage .circle-number h5{
-    font-size: 20px;
+    font-size: 16px;
 }
 .circle-box .circle-percentage .circle-number h2 span{
     font-size: 15px;
 }
+.circle-text{
+    font-size: 10px;
+}
+
 @media screen and (max-width: 480px){
     .tool-section{
         background: transparent;

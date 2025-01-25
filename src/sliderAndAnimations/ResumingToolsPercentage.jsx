@@ -43,7 +43,7 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>70 <span>%</span></h5>
+        <h5>77 <span>%</span></h5>
     </div>
   </div>
   <h6 className="circle-text">JAVASCRIPT</h6> 
@@ -62,25 +62,6 @@ const ResumingToolsPercentage = () => {
       </div>
     </div>
     <h6 className="circle-text">ReactJS</h6> 
-
-    
-    
-  </div>
-
-<div className="circle-box">
-    <div className="circle-percentage">
-      <svg>
-        <circle cx="40" cy="40" r="40"></circle>
-        <circle cx="40" cy="40" r="40"></circle>
-      </svg>
-      <div className="circle-number">
-          <h5>68 <span>%</span></h5>
-      </div>
-    </div>
-    <h6 className="circle-text">Nodejs</h6> 
-
-    
-    
   </div>
 
 <div className="circle-box">
@@ -90,13 +71,10 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>80 <span>%</span></h5>
+        <h5>60 <span>%</span></h5>
     </div>
   </div>
-  <h6 className="circle-text">ExpressJS</h6> 
-
-  
-  
+  <h6 className="circle-text">Nodejs / <br /> ExpressJS</h6> 
 </div>
 <div className="circle-box">
     <div className="circle-percentage">
@@ -108,9 +86,7 @@ const ResumingToolsPercentage = () => {
           <h5>75 <span>%</span></h5>
       </div>
     </div>
-    <h6 className="circle-text">MongoDB</h6> 
-
-    
+    <h6 className="circle-text">MongoDB</h6>
     
   </div>
 
@@ -124,10 +100,7 @@ const ResumingToolsPercentage = () => {
           <h5>80 <span>%</span></h5>
       </div>
     </div>
-    <h6 className="circle-text" style={{lineHeight:"10px"}}>Bootstrap/ <br />tailwind CSS</h6> 
-
-    
-    
+    <h6 className="circle-text" style={{lineHeight:"10px"}}>Tailwind CSS /<br />Bootstrap</h6> 
   </div>
 
 <div className="circle-box">
@@ -137,14 +110,24 @@ const ResumingToolsPercentage = () => {
       <circle cx="40" cy="40" r="40"></circle>
     </svg>
     <div className="circle-number">
-        <h5>84 <span>%</span></h5>
+        <h5>70 <span>%</span></h5>
     </div>
   </div>
-  <h6 className="circle-text">General Printing</h6> 
-
-  
-  
+  <h6 className="circle-text">Next JS</h6> 
 </div>
+<div className="circle-box">
+    <div className="circle-percentage">
+      <svg>
+        <circle cx="40" cy="40" r="40"></circle>
+        <circle cx="40" cy="40" r="40"></circle>
+      </svg>
+      <div className="circle-number">
+          <h5>78 <span>%</span></h5>
+      </div>
+    </div>
+    <h6 className="circle-text">Branding  &  printing</h6>   
+  </div>
+
 </div>
   )
 }
