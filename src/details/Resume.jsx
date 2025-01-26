@@ -140,11 +140,6 @@ export const Resume = () => {
           <div className="rank-round"></div>
           </div>
 
-          <h3 className='rank-h3'>French</h3>
-          <div className="rank">
-          <div className="rank-round"></div>
-         
-          </div>
         </div>
            
          </div>
