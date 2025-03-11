@@ -25,13 +25,13 @@ export const Resume = () => {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <div className='resume'>
+    <div className='f-c resume'>
       
       <h3 className='head'><span>R</span>esume</h3>
       <hr />
 
       <div className="resume-experience">
-      <div className="experience">
+      <div className="f-c experience">
         <h3>EXPERIENCE</h3>
         <span className="date">2019 - Present</span>
         <div className="image">
@@ -43,7 +43,7 @@ export const Resume = () => {
         
         <h4>Conduct technology analysis, project management, business consulting, General Printing merchandise and IT service and management</h4>
         </div>
-        <div className="experience">
+        <div className="f-c experience">
         <h3 style={{marginTop:"-50px"}}>EDUCATION</h3>
         <span className="date">2018</span>
         <div className="image">
@@ -56,7 +56,7 @@ export const Resume = () => {
       
       </div>
       <div className="resume-experience">
-      <div className="experience">
+      <div className="f-c experience">
        
         <span className="date">2014 - Present</span>
         <div className="image">
@@ -67,7 +67,7 @@ export const Resume = () => {
 
         <h4>Ensure All Printing projects are finished on schedule, under budget, and to specifications, and that all stakeholders are informed and happy</h4>
         </div>
-        <div className="experience">
+        <div className="f-c experience">
         
         <span className="date" style={{marginTop:"60px"}}>2021-2022</span>
         <div className="image">
@@ -79,7 +79,7 @@ export const Resume = () => {
       </div>
       
       </div>
-      <div className="skill">
+      <div className="f-c skill">
          <h3><span>S</span>kills</h3>
    <hr />
        
@@ -176,7 +176,7 @@ export const Resume = () => {
         <p>partner</p>
         <h4>Data Scientist & Implementation Consultant at ACTO</h4>
          </div>,
-          <div key="title4" className="testimony">
+          <div key="title4" className="f-c testimony">
           <i >" Taiwo is a dedicated worker with exceptional work ethic and a drive to always exceed all client expectations. He continually thrives to improve at his craft and is an essential team player at Bincom ICT.
          Tunde Obatayo
          
@@ -189,18 +189,9 @@ export const Resume = () => {
 
              ][titleIndex]}
 
-        
-
-       
-
-
         </div>
         <hr />
-
-        
       </div>
-      
-
     </div>
   )
 };

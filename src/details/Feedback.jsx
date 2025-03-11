@@ -38,18 +38,18 @@ const Contact = () => {
   };
 
   return (
-    <section className='contact-form'>
+    <section className='f-c contact-form'>
       <h1>Message Us Here</h1>
       <form onSubmit={onSubmit} ref={formRef}>
-        <div className="input-box">
+        <div className="f-c input-box">
           <input type="text" placeholder='Full Name' name='name' required className='field' />
         </div>
 
-        <div className="input-box">
+        <div className="f-c input-box">
           <input type="email" placeholder='Enter your email' name='email' required className='field' />
         </div>
 
-        <div className="input-box">
+        <div className="f-c input-box">
           <textarea name="message" placeholder='Enter your message' required className='field message'></textarea>
         </div>
 

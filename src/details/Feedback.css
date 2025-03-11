@@ -1,9 +1,5 @@
 .contact-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  justify-content: center;
   height: auto;
   background: rgb(9, 172, 162);
 }
@@ -15,7 +11,7 @@
   padding: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   color: #333;
-  margin: 3px;
+  margin: 2px;
 }
 
 .contact-form form h1{
@@ -25,10 +21,6 @@
 .contact-form form .input-box{
   width: 100%;
   margin-top: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .contact-form form .input-box .field{
   width: 90%;

@@ -10,9 +10,9 @@ import AnimationRotate from '../sliderAndAnimations/AnimationRotate';
 
 const About = () => {
   return (
-    <div className='about'>
+    <div className='f-c about'>
 
-      <div  className='about-body'>
+      <div  className='f-c about-body'>
       
       <AnimationRotate/>
       <hr />
@@ -27,41 +27,41 @@ const About = () => {
 
       I have a strong mix of business and technical abilities, and in all of the IT Products and Projects I have managed and am now managing, my technical background and love for technology has inspired my drive to understand new trends in IT such as Fullsatack Development, which is a plus to career projection.</p>
     </div>
-       <div className="about-body-two">
+       <div className="f-c about-body-two">
          <h3><span>M</span>Y SERVICES</h3>
          <div className="my-services">
-            <div className="service">
+            <div className="f-c service">
                <TfiWorld className='web'/>
                <h2>Web Development</h2>
        <p className='p'>Every customer wants a seamless digital experience with personalized service. Digital presence is handy for customer satisfaction</p>
   </div>
-  <div className="service">
+  <div className="f-c service">
   <HiOutlineDesktopComputer className='web'/>
   <h2>IT Service <br />Management</h2>
     <p className='p'>
     A functional IT department is always a necessary condition for every firm's success and the foundation for business repositioning.</p>
   </div>
 
-  <div className="service">
+  <div className="f-c service">
     <FiPrinter className='web'/>
     <h2>IT Consulting</h2>
     <p>
        Guiding the organization on everything from overall General Technology strategies such as type of technology and Quality control of all Productions etc.</p>
   </div>
-  <div className="service">
+  <div className="f-c service">
   <FaBook className='web'/>
   <h2>General Printing</h2>
     <p>
        Guiding the organization on everything from overall General Printing strategies such as type of available Printing technologies and Quality control of all Productions etc.</p>
   </div>
-  <div className="service">
+  <div className="f-c service">
   <FaBook className='web'/>
   <h2>Economic Analysis</h2>
     <p>
     I organise, and assess data sets in order to answer a question, provide insights or make it useful for decision making in a range of businesses and organisations.</p>
   </div>
 
-  <div className="service">
+  <div className="f-c service">
   <FaChalkboardTeacher className='web'/>
   <h2>Coaching & Training</h2>
     <p>
@@ -69,7 +69,7 @@ const About = () => {
   </div>
 </div>
 </div>
-<div className="client">
+<div className="f-c client">
          <h3><span>C</span>LIENTS</h3>
    <hr />
     

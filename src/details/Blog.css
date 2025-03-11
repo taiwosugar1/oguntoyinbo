@@ -21,10 +21,6 @@
   }
   
   .blog-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background: white;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -73,10 +69,6 @@
 
 /* General styling for blog details page */
 .blog-details {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 20px;
   max-width: 900px;
   height: 100vh;

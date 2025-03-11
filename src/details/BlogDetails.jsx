@@ -13,7 +13,7 @@ const BlogDetails = () => {
   }
 
   return (
-    <div className="blog-details">
+    <div className="f-c blog-details">
       <h2>{blog.title}</h2>
       <p>{blog.content}</p>
       

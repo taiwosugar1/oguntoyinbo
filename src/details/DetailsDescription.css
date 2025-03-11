@@ -1,17 +1,13 @@
-.details-description{
+.details-description, 
+.details-description .description,
+.details-description .description .post,
+.details-description .description .category,
+.details-description .description .comment{
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
 
-}
-
-.details-description .description{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-   
 }
 .details-description .description .input{
     display: flex;
@@ -31,12 +27,8 @@
 
 
 .details-description .description .post{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
     width: 300px;
     height: 80px;
-    justify-content: start;
     margin: 20px;
 }
 .details-description .description .post h4:hover{
@@ -45,11 +37,7 @@
 }
 
 .details-description .description .comment{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
     width: 300px;
-    justify-content: flex-start;
     height: 70px;
     margin: 20px;
 }
@@ -64,13 +52,8 @@
 }
 
 .details-description .description .category{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    justify-content: start;
     width: 300px;
     height: 70px;
-    justify-content: flex-start;
     margin: 20px;
 }
 

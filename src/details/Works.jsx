@@ -13,7 +13,7 @@ export const Works = () => {
      setData(result)
   }
   return (
-   <div className='work-container'> 
+   <div className='f-c work-container'> 
    <h3><span style={{color:'royalblue'}}>P</span>rojects Completed</h3>   
     <nav className='nav'>
     
@@ -32,7 +32,7 @@ export const Works = () => {
           return(
               <>
               <Link to={weblink}>
-                  <div className="work-done" key={id}>
+                  <div className="f-c work-done" key={id}>
                     <img src={image} alt="" />
                     <h3>{name}</h3>
                     <p>{profession}</p>

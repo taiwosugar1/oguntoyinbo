@@ -14,7 +14,7 @@ export const Blog = () => {
         
           <div className="blog-box" >
           {blogPosts.map((post) => (
-            <div className="blog-content" key={post.id}>
+            <div className="f-c blog-content" key={post.id}>
               <img src={post.image} alt="" />
               <h4>{post.title}</h4>
               <p>{post.summary}</p>
