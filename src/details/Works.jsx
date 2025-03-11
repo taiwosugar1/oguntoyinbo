@@ -55,16 +55,16 @@ export const Works = () => {
 export const Categories = [
   {
     id: 1,
-    name: "https://multibrandprints.com.ng",
-    image: 'image/web10.png',
-    profession: "Printing Website",
+    name: "https://www.rosadav.com.ng",
+    image: 'image/rosadav.png',
+    profession: "Power & Energy Website",
     category: "web",
-    weblink:"https://multibrandprints.com.ng/"
+    weblink:"https://rosadav.vercel.app/"
   },
   {
     id: 2,
     name: "https://diamondvisa.com",
-    image: 'image/web8-image.png',
+    image: 'image/diamond.png',
     profession: " Immigration Website",
     category: "web",
     weblink:"https://diamond-visa.vercel.app/"
@@ -73,7 +73,7 @@ export const Categories = [
     id: 3,
     name: "https://zeavix.com.",
     image: 'image/zeavix.png',
-    profession: " Business Website",
+    profession: " Shortlets and Events Website",
     category: "web",
     weblink:"https://www.zeavix.com/"
   },
@@ -82,7 +82,7 @@ export const Categories = [
     id: 4,
     name: "https://adcoreconsulting.com",
     image: 'image/adcore.png',
-    profession: " Business Website",
+    profession: " Printing Website",
     category: "web",
     weblink:"https://adcoreconsulting.vercel.app/"
   },
@@ -91,22 +91,13 @@ export const Categories = [
     id: 5,
     name: "https://wellnessmartialart.com",
     image: 'image/web20.png',
-    profession: "Web development",
+    profession: "Yoga & Martial Art development",
     category: "web",
     weblink:"https://wellnessmartialart.vercel.app/"
   },
-
-  {
-    id: 6,
-    name: "https://church.com.",
-    image: 'image/church.png',
-    profession: " Church Website",
-    category: "web",
-    weblink:"https://churchit.vercel.app//"
-  },
  
   {
-    id: 7,
+    id: 6,
     name: "https://tapecommunications.com",
     image: 'image/tape.png',
     profession: "Media Website",
@@ -114,7 +105,7 @@ export const Categories = [
     weblink:"https://www.tapecommunications.com/"
   },
   {
-    id: 8,
+    id: 7,
     name: "https://bsolusholaenergy.ng",
     image: 'image/web25.png',
     profession: "Eletrical Website",
@@ -123,7 +114,7 @@ export const Categories = [
   },
 
   {
-    id: 9,
+    id: 8,
     name: "https://printhub.com.ng",
     image: 'image/printhub.png',
     profession: " Business Website",
@@ -131,56 +122,71 @@ export const Categories = [
     weblink:"https://printhub-omega.vercel.app/"
   },
   {
+    id: 9,
+    name: "https://church.com.",
+    image: 'image/church.png',
+    profession: " Church Website",
+    category: "web",
+    weblink:"https://churchit.vercel.app//"
+  },
+  {
     id: 10,
     name: "https://linkyoutube.com",
-    image: 'image/y.png',
+    image: 'image/link-youtube.png',
     profession: " Youtube Video Saver Website",
     category: "web",
     weblink:"https://linkyoutube.vercel.app/"
   },
-
   {
-    id: 17,
-    name: "Music Web Application",
-    image: 'image/web5-image.png',
-    profession: "Web Applications",
+    id: 1121,
+    name: "https://multibrandprints.com.ng",
+    image: 'image/web10.png',
+    profession: "Printing Website",
     category: "web",
-    weblink:"https://music-eight-rose.vercel.app/"
+    weblink:"https://multibrandprints.com.ng/"
   },
 
-  {
-  id: 13,
-  name: "E-commerce Web Development",
-  image: 'image/web1-image.png',
-  profession: "Web development",
-  category: "web",
-  weblink:"https://new-ecommerce-sooty.vercel.app//"
-},
-{
-  id: 14,
-  name: "Social Media Application",
-  image: 'image/web2-image.png',
-  profession: "Web development",
-  category: "web",
- weblink:"https://myreact-social.vercel.app/"
-},
-{
-  id: 15,
-  name: "Professional Website",
-  image: 'image/web3-image.png',
-  profession: "Web development",
-  category: "web",
-  weblink:"https://my-css-layout-project.vercel.app/"
-},
+//   {
+//   id: 13,
+//   name: "E-commerce Web Development",
+//   image: 'image/web1-image.png',
+//   profession: "Web development",
+//   category: "web",
+//   weblink:"https://new-ecommerce-sooty.vercel.app//"
+// },
+// {
+//   id: 14,
+//   name: "Social Media Application",
+//   image: 'image/web2-image.png',
+//   profession: "Web development",
+//   category: "web",
+//  weblink:"https://myreact-social.vercel.app/"
+// },
+// {
+//   id: 15,
+//   name: "Professional Website",
+//   image: 'image/web3-image.png',
+//   profession: "Web development",
+//   category: "web",
+//   weblink:"https://my-css-layout-project.vercel.app/"
+// },
 
-{
-  id: 16,
-  name: "E-commerce Sell App",
-  image: 'image/web7-image.png',
-  profession: "E-commerce App",
-  category: "web",
-  weblink:"https://product-kappa-beryl.vercel.app/"
-},
+// {
+//   id: 16,
+//   name: "E-commerce Sell App",
+//   image: 'image/web7-image.png',
+//   profession: "E-commerce App",
+//   category: "web",
+//   weblink:"https://product-kappa-beryl.vercel.app/"
+// },
+//   {
+//     id: 17,
+//     name: "Music Web Application",
+//     image: 'image/web5-image.png',
+//     profession: "Web Applications",
+//     category: "web",
+//     weblink:"https://music-eight-rose.vercel.app/"
+//   },
 
 // {
 //   id: 7,
